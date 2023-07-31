@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const Header = () => {
   return (
     <div className="navbar bg-primary text-primary-content">
@@ -38,7 +40,7 @@ const Header = () => {
               </ul>
             </li>
             <li>
-              <a>Login</a>
+              <Link href={"/login"}>Login</Link>
             </li>
           </ul>
         </div>
@@ -63,7 +65,7 @@ const Header = () => {
             </details>
           </li>
           <li>
-            <a>Item 3</a>
+            <Link href={"/login"}>Login</Link>
           </li>
         </ul>
       </div>
