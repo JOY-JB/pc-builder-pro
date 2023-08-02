@@ -57,7 +57,7 @@ const LoginPage = () => {
     //     </div>
     //   </div>
     // </div>
-    <h1>Login page</h1>
+    <h1 className="flex-1">Login page</h1>
   );
 };
 

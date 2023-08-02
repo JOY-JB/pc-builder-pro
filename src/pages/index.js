@@ -5,7 +5,7 @@ import Head from "next/head";
 
 const HomePage = ({ products }) => {
   return (
-    <div>
+    <div className="flex-1">
       <Head>
         <title>Home</title>
       </Head>
