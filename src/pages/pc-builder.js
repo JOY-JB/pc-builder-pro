@@ -1,7 +1,15 @@
+import { categoryLink } from "@/assets/commonData/categoryLink";
 import RootLayout from "@/components/layout/RootLayout";
-import { useState } from "react";
+import { selectProduct } from "@/redux/features/pcBuilder/pcBuilderSlice";
+import Link from "next/link";
+import { useDispatch, useSelector } from "react-redux";
 
 const PCBuilderPage = ({ products }) => {
+  const dispatch = useDispatch();
+  const selectedProducts = useSelector(
+    (state) => state.pcBuilder.selectedProducts
+  );
+
   const categories = [];
   const categoriesMap = {};
 
@@ -12,13 +20,8 @@ const PCBuilderPage = ({ products }) => {
     }
   });
 
-  const [selectedProducts, setSelectedProducts] = useState({});
-
   const handleProductSelect = (category, productId) => {
-    setSelectedProducts((prevSelectedProducts) => ({
-      ...prevSelectedProducts,
-      [category]: productId,
-    }));
+    dispatch(selectProduct({ category, productId }));
   };
 
   const totalPricing = Object.values(selectedProducts).reduce(
@@ -37,20 +40,39 @@ const PCBuilderPage = ({ products }) => {
             <div key={category} className="bg-white p-4 rounded-lg shadow-md">
               <h3 className="text-xl font-bold mb-2">{category}</h3>
 
-              <select
-                className="select select-primary mt-4 block w-full"
-                value={selectedProducts[category] || ""}
-                onChange={(e) => handleProductSelect(category, e.target.value)}
-              >
-                <option value="">Select a product</option>
-                {products
-                  .filter((product) => product.category === category)
-                  .map((product) => (
-                    <option key={product.id} value={product.id}>
-                      {product.name} - ${product.price}
-                    </option>
-                  ))}
-              </select>
+              <div className="flex gap-6">
+                {selectedProducts[category] ? (
+                  <div className="bg-gray-200 p-4 rounded-lg shadow-md w-full">
+                    <p className="font-semibold">
+                      {
+                        products.find(
+                          (product) => product.id === selectedProducts[category]
+                        )?.name
+                      }
+                    </p>
+                    <p>
+                      $
+                      {
+                        products.find(
+                          (product) => product.id === selectedProducts[category]
+                        )?.price
+                      }
+                    </p>
+                  </div>
+                ) : (
+                  <div className="animate-pulse bg-gray-200 p-4 rounded-lg shadow-md w-full">
+                    <div className="h-4 bg-gray-300 rounded w-2/3 mb-2"></div>
+                    <div className="h-4 bg-gray-300 rounded w-1/3"></div>
+                  </div>
+                )}
+
+                <Link
+                  href={`/categories/pc-builder/${categoryLink[category]}`}
+                  className="flex-end"
+                >
+                  <button className="btn btn-primary">Choose</button>
+                </Link>
+              </div>
             </div>
           ))}
         </div>
@@ -70,9 +92,13 @@ const PCBuilderPage = ({ products }) => {
                   </li>
                 ))}
               </ul>
-              <p className="text-lg font-bold mt-4">
-                Total Pricing: ${totalPricing.toFixed(2)}
-              </p>
+              <div className="flex flex-col gap-12">
+                <p className="text-lg font-bold mt-4">
+                  Total Pricing: ${totalPricing.toFixed(2)}
+                </p>
+
+                <button className="btn btn-primary">Complete Build</button>
+              </div>
             </div>
           ) : (
             <p>Please select one product from each category.</p>

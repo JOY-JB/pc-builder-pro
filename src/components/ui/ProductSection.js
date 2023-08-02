@@ -1,8 +1,10 @@
+import { selectProduct } from "@/redux/features/pcBuilder/pcBuilderSlice";
 import Image from "next/image";
 import Link from "next/link";
 import { BsStar, BsStarFill, BsStarHalf } from "react-icons/bs";
+import { useDispatch, useSelector } from "react-redux";
 
-const ProductSection = ({ title, products }) => {
+const ProductSection = ({ title, products, pcBuilder }) => {
   const getStarRating = (rating) => {
     const totalStars = 5;
     const roundedRating = Math.round(rating * 2) / 2;
@@ -17,6 +19,18 @@ const ProductSection = ({ title, products }) => {
       }
     });
   };
+
+  const { selectedProducts } = useSelector((state) => state.pcBuilder);
+  const dispatch = useDispatch();
+
+  const handleProductSelect = (category, productId) => {
+    dispatch(selectProduct({ category, productId }));
+  };
+
+  const isProductAdded = (productId) => {
+    return Object.values(selectedProducts).includes(productId);
+  };
+
   return (
     <section className="py-16">
       <div className="container mx-auto">
@@ -63,6 +77,24 @@ const ProductSection = ({ title, products }) => {
                   </div>
                   <p className="mb-4">{product.description}</p>
                 </Link>
+
+                {pcBuilder && (
+                  <div className="flex justify-center">
+                    <Link href={"/pc-builder"}>
+                      <button
+                        className="btn btn-primary px-16"
+                        disabled={isProductAdded(product.id)}
+                        onClick={() =>
+                          handleProductSelect(product.category, product.id)
+                        }
+                      >
+                        {isProductAdded(product.id)
+                          ? "Added"
+                          : "Add To Builder"}
+                      </button>
+                    </Link>
+                  </div>
+                )}
               </div>
             ))}
           </div>
