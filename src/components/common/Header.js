@@ -89,7 +89,9 @@ const Header = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn">Pc Builder</a>
+        <Link href={"/pc-builder"} className="btn">
+          Pc Builder
+        </Link>
       </div>
     </div>
   );
