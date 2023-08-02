@@ -37,7 +37,7 @@ HomePage.getLayout = function getLayout(page) {
 };
 
 export const getStaticProps = async () => {
-  const res = await fetch(`${process.env.BASE_URL}/api/products`);
+  const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/products`);
   const data = await res.json();
 
   return {

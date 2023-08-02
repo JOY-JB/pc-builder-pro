@@ -1,3 +1,4 @@
+import { categoryLink } from "@/assets/commonData/categoryLink";
 import { useGetProductsQuery } from "@/redux/api/apiSlice";
 import Link from "next/link";
 
@@ -56,7 +57,9 @@ const Header = () => {
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost normal-case text-xl">PC Builder Pro</a>
+        <Link href={"/"} className="btn btn-ghost normal-case text-xl">
+          PC Builder Pro
+        </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
@@ -66,10 +69,15 @@ const Header = () => {
           <li tabIndex={0}>
             <details>
               <summary>Categories</summary>
-              <ul className="p-2">
+              <ul className="p-2 bg-base-200 z-10">
                 {categories.map((category) => (
                   <li key={category} className="w-52">
-                    <a>{category}</a>
+                    <Link
+                      href={`/categories/${categoryLink[category]}`}
+                      className=""
+                    >
+                      {category}
+                    </Link>
                   </li>
                 ))}
               </ul>
