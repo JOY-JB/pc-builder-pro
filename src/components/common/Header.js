@@ -1,6 +1,19 @@
+import { useGetProductsQuery } from "@/redux/api/apiSlice";
 import Link from "next/link";
 
 const Header = () => {
+  const { data } = useGetProductsQuery();
+
+  const categories = [];
+  const categoriesMap = {};
+
+  data?.data?.forEach((item) => {
+    if (!categoriesMap[item.category]) {
+      categoriesMap[item.category] = true;
+      categories.push(item.category);
+    }
+  });
+
   return (
     <div className="navbar bg-primary text-primary-content">
       <div className="navbar-start">
@@ -26,17 +39,16 @@ const Header = () => {
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
-              <a>Item 1</a>
+              <Link href={"/"}>Home</Link>
             </li>
             <li>
-              <a>Parent</a>
+              <a>Categories</a>
               <ul className="p-2">
-                <li>
-                  <a>Submenu 1</a>
-                </li>
-                <li>
-                  <a>Submenu 2</a>
-                </li>
+                {categories.map((category) => (
+                  <li key={category}>
+                    <a>{category}</a>
+                  </li>
+                ))}
               </ul>
             </li>
             <li>
@@ -49,18 +61,17 @@ const Header = () => {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <a>Item 1</a>
+            <Link href={"/"}>Home</Link>
           </li>
           <li tabIndex={0}>
             <details>
-              <summary>Parent</summary>
+              <summary>Categories</summary>
               <ul className="p-2">
-                <li>
-                  <a>Submenu 1</a>
-                </li>
-                <li>
-                  <a>Submenu 2</a>
-                </li>
+                {categories.map((category) => (
+                  <li key={category} className="w-52">
+                    <a>{category}</a>
+                  </li>
+                ))}
               </ul>
             </details>
           </li>

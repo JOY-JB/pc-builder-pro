@@ -1,1138 +1,2330 @@
-{
-  "products": {
-    "cpu": [
-      {
-        "id": "cpu1",
-        "name": "AMD Ryzen 7 5800X",
-        "category": "CPU / Processor",
-        "price": 399.99,
-        "status": "In Stock",
-        "rating": 4.8,
-        "image": "/images/cpu1.jpg",
-        "description": "The AMD Ryzen 7 5800X is a high-performance processor for gaming and content creation.",
-        "keyFeatures": [
-          "Brand: AMD",
-          "Cores: 8",
-          "Threads: 16",
-          "Clock Speed: 3.8 GHz",
-          "Max Boost Speed: 4.7 GHz"
-        ],
-        "individualRating": 4.8,
-        "averageRating": 4.9,
-        "reviews": [
-          {
-            "id": "r1",
-            "username": "User123",
-            "rating": 5,
-            "comment": "Fantastic CPU! Highly recommended for gamers and streamers."
-          },
-          {
-            "id": "r2",
-            "username": "TechGeek",
-            "rating": 4.5,
-            "comment": "Great performance, but a bit on the expensive side."
-          }
-        ]
-      },
-      {
-        "id": "cpu2",
-        "name": "Intel Core i9-9900K",
-        "category": "CPU / Processor",
-        "price": 399.99,
-        "status": "Out of Stock",
-        "rating": 4.6,
-        "image": "/images/cpu2.jpg",
-        "description": "The Intel Core i9-9900K is a high-performance processor for gaming and intensive tasks.",
-        "keyFeatures": [
-          "Brand: Intel",
-          "Cores: 8",
-          "Threads: 16",
-          "Clock Speed: 3.6 GHz",
-          "Max Turbo Speed: 5.0 GHz"
-        ],
-        "individualRating": 4.6,
-        "averageRating": 4.7,
-        "reviews": [
-          {
-            "id": "r1",
-            "username": "GamerX",
-            "rating": 5,
-            "comment": "Amazing processor! Great performance in games and applications."
-          },
-          {
-            "id": "r2",
-            "username": "TechEnthusiast",
-            "rating": 4.5,
-            "comment": "Solid CPU, but a bit expensive for the performance."
-          }
-        ]
-      },
-      {
-        "id": "cpu3",
-        "name": "AMD Ryzen 5 5600X",
-        "category": "CPU / Processor",
-        "price": 279.99,
-        "status": "In Stock",
-        "rating": 4.7,
-        "image": "/images/cpu3.jpg",
-        "description": "The AMD Ryzen 5 5600X offers excellent performance for gaming and productivity.",
-        "keyFeatures": [
-          "Brand: AMD",
-          "Cores: 6",
-          "Threads: 12",
-          "Clock Speed: 3.7 GHz",
-          "Max Boost Speed: 4.6 GHz"
-        ],
-        "individualRating": 4.7,
-        "averageRating": 4.6,
-        "reviews": [
-          {
-            "id": "r1",
-            "username": "GamingNinja",
-            "rating": 5,
-            "comment": "Fast and reliable CPU, perfect for gaming."
-          },
-          {
-            "id": "r2",
-            "username": "TechGuru",
-            "rating": 4.5,
-            "comment": "Great value for money, works like a charm."
-          }
-        ]
-      },
-      {
-        "id": "cpu4",
-        "name": "Intel Core i7-11700K",
-        "category": "CPU / Processor",
-        "price": 349.99,
-        "status": "In Stock",
-        "rating": 4.8,
-        "image": "/images/cpu4.jpg",
-        "description": "The Intel Core i7-11700K is a powerful processor for gaming and multitasking.",
-        "keyFeatures": [
-          "Brand: Intel",
-          "Cores: 8",
-          "Threads: 16",
-          "Clock Speed: 3.6 GHz",
-          "Max Turbo Speed: 5.0 GHz"
-        ],
-        "individualRating": 4.8,
-        "averageRating": 4.9,
-        "reviews": [
-          {
-            "id": "r1",
-            "username": "Gamer123",
-            "rating": 5,
-            "comment": "Excellent CPU, handles games and workloads like a champ."
-          },
-          {
-            "id": "r2",
-            "username": "TechLover",
-            "rating": 4.5,
-            "comment": "Solid performer, but could use better thermal management."
-          }
-        ]
-      },
-      {
-        "id": "cpu5",
-        "name": "AMD Ryzen 9 5900X",
-        "category": "CPU / Processor",
-        "price": 499.99,
-        "status": "In Stock",
-        "rating": 4.9,
-        "image": "/images/cpu5.jpg",
-        "description": "The AMD Ryzen 9 5900X is a top-tier processor for gaming and heavy workloads.",
-        "keyFeatures": [
-          "Brand: AMD",
-          "Cores: 12",
-          "Threads: 24",
-          "Clock Speed: 3.7 GHz",
-          "Max Boost Speed: 4.8 GHz"
-        ],
-        "individualRating": 4.9,
-        "averageRating": 4.8,
-        "reviews": [
-          {
-            "id": "r1",
-            "username": "ProGamer",
-            "rating": 5,
-            "comment": "Beast of a CPU, worth every penny."
-          },
-          {
-            "id": "r2",
-            "username": "TechMaster",
-            "rating": 4.9,
-            "comment": "Excellent multi-core performance, ideal for content creation."
-          }
-        ]
-      }
+// {
+//   "products": {
+//     "cpu": [
+//       {
+//         "id": "cpu1",
+//         "name": "AMD Ryzen 7 5800X",
+//         "category": "CPU / Processor",
+//         "price": 399.99,
+//         "status": "In Stock",
+//         "rating": 4.8,
+//         "image": "/images/cpu1.jpg",
+//         "description": "The AMD Ryzen 7 5800X is a high-performance processor for gaming and content creation.",
+//         "keyFeatures": [
+//           "Brand: AMD",
+//           "Cores: 8",
+//           "Threads: 16",
+//           "Clock Speed: 3.8 GHz",
+//           "Max Boost Speed: 4.7 GHz"
+//         ],
+//         "individualRating": 4.8,
+//         "averageRating": 4.9,
+//         "reviews": [
+//           {
+//             "id": "r1",
+//             "username": "User123",
+//             "rating": 5,
+//             "comment": "Fantastic CPU! Highly recommended for gamers and streamers."
+//           },
+//           {
+//             "id": "r2",
+//             "username": "TechGeek",
+//             "rating": 4.5,
+//             "comment": "Great performance, but a bit on the expensive side."
+//           }
+//         ]
+//       },
+//       {
+//         "id": "cpu2",
+//         "name": "Intel Core i9-9900K",
+//         "category": "CPU / Processor",
+//         "price": 399.99,
+//         "status": "Out of Stock",
+//         "rating": 4.6,
+//         "image": "/images/cpu2.jpg",
+//         "description": "The Intel Core i9-9900K is a high-performance processor for gaming and intensive tasks.",
+//         "keyFeatures": [
+//           "Brand: Intel",
+//           "Cores: 8",
+//           "Threads: 16",
+//           "Clock Speed: 3.6 GHz",
+//           "Max Turbo Speed: 5.0 GHz"
+//         ],
+//         "individualRating": 4.6,
+//         "averageRating": 4.7,
+//         "reviews": [
+//           {
+//             "id": "r1",
+//             "username": "GamerX",
+//             "rating": 5,
+//             "comment": "Amazing processor! Great performance in games and applications."
+//           },
+//           {
+//             "id": "r2",
+//             "username": "TechEnthusiast",
+//             "rating": 4.5,
+//             "comment": "Solid CPU, but a bit expensive for the performance."
+//           }
+//         ]
+//       },
+//       {
+//         "id": "cpu3",
+//         "name": "AMD Ryzen 5 5600X",
+//         "category": "CPU / Processor",
+//         "price": 279.99,
+//         "status": "In Stock",
+//         "rating": 4.7,
+//         "image": "/images/cpu3.jpg",
+//         "description": "The AMD Ryzen 5 5600X offers excellent performance for gaming and productivity.",
+//         "keyFeatures": [
+//           "Brand: AMD",
+//           "Cores: 6",
+//           "Threads: 12",
+//           "Clock Speed: 3.7 GHz",
+//           "Max Boost Speed: 4.6 GHz"
+//         ],
+//         "individualRating": 4.7,
+//         "averageRating": 4.6,
+//         "reviews": [
+//           {
+//             "id": "r1",
+//             "username": "GamingNinja",
+//             "rating": 5,
+//             "comment": "Fast and reliable CPU, perfect for gaming."
+//           },
+//           {
+//             "id": "r2",
+//             "username": "TechGuru",
+//             "rating": 4.5,
+//             "comment": "Great value for money, works like a charm."
+//           }
+//         ]
+//       },
+//       {
+//         "id": "cpu4",
+//         "name": "Intel Core i7-11700K",
+//         "category": "CPU / Processor",
+//         "price": 349.99,
+//         "status": "In Stock",
+//         "rating": 4.8,
+//         "image": "/images/cpu4.jpg",
+//         "description": "The Intel Core i7-11700K is a powerful processor for gaming and multitasking.",
+//         "keyFeatures": [
+//           "Brand: Intel",
+//           "Cores: 8",
+//           "Threads: 16",
+//           "Clock Speed: 3.6 GHz",
+//           "Max Turbo Speed: 5.0 GHz"
+//         ],
+//         "individualRating": 4.8,
+//         "averageRating": 4.9,
+//         "reviews": [
+//           {
+//             "id": "r1",
+//             "username": "Gamer123",
+//             "rating": 5,
+//             "comment": "Excellent CPU, handles games and workloads like a champ."
+//           },
+//           {
+//             "id": "r2",
+//             "username": "TechLover",
+//             "rating": 4.5,
+//             "comment": "Solid performer, but could use better thermal management."
+//           }
+//         ]
+//       },
+//       {
+//         "id": "cpu5",
+//         "name": "AMD Ryzen 9 5900X",
+//         "category": "CPU / Processor",
+//         "price": 499.99,
+//         "status": "In Stock",
+//         "rating": 4.9,
+//         "image": "/images/cpu5.jpg",
+//         "description": "The AMD Ryzen 9 5900X is a top-tier processor for gaming and heavy workloads.",
+//         "keyFeatures": [
+//           "Brand: AMD",
+//           "Cores: 12",
+//           "Threads: 24",
+//           "Clock Speed: 3.7 GHz",
+//           "Max Boost Speed: 4.8 GHz"
+//         ],
+//         "individualRating": 4.9,
+//         "averageRating": 4.8,
+//         "reviews": [
+//           {
+//             "id": "r1",
+//             "username": "ProGamer",
+//             "rating": 5,
+//             "comment": "Beast of a CPU, worth every penny."
+//           },
+//           {
+//             "id": "r2",
+//             "username": "TechMaster",
+//             "rating": 4.9,
+//             "comment": "Excellent multi-core performance, ideal for content creation."
+//           }
+//         ]
+//       }
+//     ],
+//     "motherboard": [
+//       {
+//         "id": "mb1",
+//         "name": "MSI MPG B550 Gaming Plus",
+//         "category": "Motherboard",
+//         "price": 159.99,
+//         "status": "In Stock",
+//         "rating": 4.7,
+//         "image": "/images/mb1.jpg",
+//         "description": "The MSI MPG B550 Gaming Plus offers great performance and features for gaming enthusiasts.",
+//         "keyFeatures": [
+//           "Socket: AM4",
+//           "Chipset: AMD B550",
+//           "Memory: DDR4, up to 128GB",
+//           "PCIe Slots: 2 x PCIe 4.0 x16"
+//         ],
+//         "individualRating": 4.7,
+//         "averageRating": 4.6,
+//         "reviews": [
+//           {
+//             "id": "r1",
+//             "username": "GamerGuy",
+//             "rating": 5,
+//             "comment": "Superb motherboard with excellent build quality."
+//           },
+//           {
+//             "id": "r2",
+//             "username": "TechWizard",
+//             "rating": 4.5,
+//             "comment": "A solid choice for gamers and overclockers."
+//           }
+//         ]
+//       },
+//       {
+//         "id": "mb2",
+//         "name": "ASUS ROG Strix B550-F Gaming",
+//         "category": "Motherboard",
+//         "price": 189.99,
+//         "status": "In Stock",
+//         "rating": 4.9,
+//         "image": "/images/mb2.jpg",
+//         "description": "The ASUS ROG Strix B550-F Gaming offers top-notch performance and premium features.",
+//         "keyFeatures": [
+//           "Socket: AM4",
+//           "Chipset: AMD B550",
+//           "Memory: DDR4, up to 128GB",
+//           "PCIe Slots: 3 x PCIe 4.0 x16"
+//         ],
+//         "individualRating": 4.9,
+//         "averageRating": 4.8,
+//         "reviews": [
+//           {
+//             "id": "r1",
+//             "username": "GamingNerd",
+//             "rating": 5,
+//             "comment": "Awesome motherboard, great for high-end gaming builds."
+//           },
+//           {
+//             "id": "r2",
+//             "username": "TechWhiz",
+//             "rating": 4.9,
+//             "comment": "Premium features and aesthetics, but a bit pricey."
+//           }
+//         ]
+//       },
+//       {
+//         "id": "mb3",
+//         "name": "GIGABYTE B450 AORUS PRO",
+//         "category": "Motherboard",
+//         "price": 129.99,
+//         "status": "In Stock",
+//         "rating": 4.6,
+//         "image": "/images/mb3.jpg",
+//         "description": "The GIGABYTE B450 AORUS PRO is a reliable and affordable choice for mid-range builds.",
+//         "keyFeatures": [
+//           "Socket: AM4",
+//           "Chipset: AMD B450",
+//           "Memory: DDR4, up to 64GB",
+//           "PCIe Slots: 2 x PCIe 3.0 x16"
+//         ],
+//         "individualRating": 4.6,
+//         "averageRating": 4.7,
+//         "reviews": [
+//           {
+//             "id": "r1",
+//             "username": "GamerZ",
+//             "rating": 5,
+//             "comment": "Great value for money, performs well in gaming."
+//           },
+//           {
+//             "id": "r2",
+//             "username": "TechSavvy",
+//             "rating": 4.5,
+//             "comment": "Solid budget-friendly motherboard, no complaints."
+//           }
+//         ]
+//       },
+//       {
+//         "id": "mb4",
+//         "name": "ASUS ROG Strix X570-E Gaming",
+//         "category": "Motherboard",
+//         "price": 289.99,
+//         "status": "In Stock",
+//         "rating": 4.8,
+//         "image": "/images/mb4.jpg",
+//         "description": "The ASUS ROG Strix X570-E Gaming is a high-end motherboard with premium features.",
+//         "keyFeatures": [
+//           "Socket: AM4",
+//           "Chipset: AMD X570",
+//           "Memory: DDR4, up to 128GB",
+//           "PCIe Slots: 2 x PCIe 4.0 x16"
+//         ],
+//         "individualRating": 4.8,
+//         "averageRating": 4.9,
+//         "reviews": [
+//           {
+//             "id": "r1",
+//             "username": "ProGamerX",
+//             "rating": 5,
+//             "comment": "Top-tier motherboard, great for extreme overclocking."
+//           },
+//           {
+//             "id": "r2",
+//             "username": "TechEnthusiastX",
+//             "rating": 4.5,
+//             "comment": "Highly recommended for enthusiasts and gamers."
+//           }
+//         ]
+//       },
+//       {
+//         "id": "mb5",
+//         "name": "MSI B450 TOMAHAWK MAX",
+//         "category": "Motherboard",
+//         "price": 119.99,
+//         "status": "In Stock",
+//         "rating": 4.7,
+//         "image": "/images/mb5.jpg",
+//         "description": "The MSI B450 TOMAHAWK MAX is a reliable and feature-rich motherboard for gaming builds.",
+//         "keyFeatures": [
+//           "Socket: AM4",
+//           "Chipset: AMD B450",
+//           "Memory: DDR4, up to 64GB",
+//           "PCIe Slots: 2 x PCIe 3.0 x16"
+//         ],
+//         "individualRating": 4.7,
+//         "averageRating": 4.8,
+//         "reviews": [
+//           {
+//             "id": "r1",
+//             "username": "GamingAddict",
+//             "rating": 5,
+//             "comment": "Solid motherboard, easy to use and setup."
+//           },
+//           {
+//             "id": "r2",
+//             "username": "TechExpert",
+//             "rating": 4.5,
+//             "comment": "Great value for mid-range builds, no complaints so far."
+//           }
+//         ]
+//       }
+//     ],
+//     "ram": [
+//       {
+//         "id": "ram1",
+//         "name": "Corsair Vengeance LPX 16GB",
+//         "category": "RAM",
+//         "price": 79.99,
+//         "status": "In Stock",
+//         "rating": 4.6,
+//         "image": "/images/ram1.jpg",
+//         "description": "The Corsair Vengeance LPX offers fast and reliable performance for your gaming and multitasking needs.",
+//         "keyFeatures": [
+//           "Capacity: 16GB (2 x 8GB)",
+//           "Speed: DDR4-3200",
+//           "CAS Latency: 16",
+//           "Timing: 16-18-18-36"
+//         ],
+//         "individualRating": 4.6,
+//         "averageRating": 4.7,
+//         "reviews": [
+//           {
+//             "id": "r1",
+//             "username": "GamerX",
+//             "rating": 5,
+//             "comment": "Great RAM, runs smoothly with my Ryzen CPU."
+//           },
+//           {
+//             "id": "r2",
+//             "username": "TechEnthusiast",
+//             "rating": 4.5,
+//             "comment": "Reliable memory, but could be a bit cheaper."
+//           }
+//         ]
+//       },
+//       {
+//         "id": "ram2",
+//         "name": "G.SKILL Ripjaws V Series 32GB",
+//         "category": "RAM",
+//         "price": 149.99,
+//         "status": "In Stock",
+//         "rating": 4.7,
+//         "image": "/images/ram2.jpg",
+//         "description": "The G.SKILL Ripjaws V Series offers high-capacity RAM for demanding tasks and applications.",
+//         "keyFeatures": [
+//           "Capacity: 32GB (2 x 16GB)",
+//           "Speed: DDR4-3600",
+//           "CAS Latency: 16",
+//           "Timing: 16-19-19-39"
+//         ],
+//         "individualRating": 4.7,
+//         "averageRating": 4.8,
+//         "reviews": [
+//           {
+//             "id": "r1",
+//             "username": "GamingQueen",
+//             "rating": 5,
+//             "comment": "Fast and reliable memory, perfect for multitasking."
+//           },
+//           {
+//             "id": "r2",
+//             "username": "TechNerd",
+//             "rating": 4.5,
+//             "comment": "Great choice for content creators and power users."
+//           }
+//         ]
+//       },
+//       {
+//         "id": "ram3",
+//         "name": "Crucial Ballistix 16GB",
+//         "category": "RAM",
+//         "price": 89.99,
+//         "status": "In Stock",
+//         "rating": 4.8,
+//         "image": "/images/ram3.jpg",
+//         "description": "The Crucial Ballistix offers reliable and budget-friendly RAM for gaming and everyday use.",
+//         "keyFeatures": [
+//           "Capacity: 16GB (2 x 8GB)",
+//           "Speed: DDR4-3200",
+//           "CAS Latency: 16",
+//           "Timing: 16-18-18-36"
+//         ],
+//         "individualRating": 4.8,
+//         "averageRating": 4.9,
+//         "reviews": [
+//           {
+//             "id": "r1",
+//             "username": "GamerXYZ",
+//             "rating": 5,
+//             "comment": "Affordable and performs well in games and applications."
+//           },
+//           {
+//             "id": "r2",
+//             "username": "TechJunkie",
+//             "rating": 4.5,
+//             "comment": "Great budget RAM, no complaints so far."
+//           }
+//         ]
+//       },
+//       {
+//         "id": "ram4",
+//         "name": "Team T-FORCE VULCAN Z 32GB",
+//         "category": "RAM",
+//         "price": 129.99,
+//         "status": "In Stock",
+//         "rating": 4.7,
+//         "image": "/images/ram4.jpg",
+//         "description": "The Team T-FORCE VULCAN Z offers a sleek design and reliable performance for your build.",
+//         "keyFeatures": [
+//           "Capacity: 32GB (2 x 16GB)",
+//           "Speed: DDR4-3200",
+//           "CAS Latency: 16",
+//           "Timing: 16-18-18-36"
+//         ],
+//         "individualRating": 4.7,
+//         "averageRating": 4.8,
+//         "reviews": [
+//           {
+//             "id": "r1",
+//             "username": "GamingFan",
+//             "rating": 5,
+//             "comment": "Looks great and works flawlessly with my Ryzen CPU."
+//           },
+//           {
+//             "id": "r2",
+//             "username": "TechEnthusiastZ",
+//             "rating": 4.5,
+//             "comment": "Good value for a high-capacity RAM kit."
+//           }
+//         ]
+//       },
+//       {
+//         "id": "ram5",
+//         "name": "HyperX Fury 16GB",
+//         "category": "RAM",
+//         "price": 79.99,
+//         "status": "In Stock",
+//         "rating": 4.6,
+//         "image": "/images/ram5.jpg",
+//         "description": "The HyperX Fury offers stylish and high-performance RAM for gamers and PC enthusiasts.",
+//         "keyFeatures": [
+//           "Capacity: 16GB (2 x 8GB)",
+//           "Speed: DDR4-3200",
+//           "CAS Latency: 16",
+//           "Timing: 16-18-18"
+//         ],
+//         "individualRating": 4.6,
+//         "averageRating": 4.7,
+//         "reviews": [
+//           {
+//             "id": "r1",
+//             "username": "GamingGuru",
+//             "rating": 5,
+//             "comment": "Great RAM, perfect for my gaming setup."
+//           },
+//           {
+//             "id": "r2",
+//             "username": "TechSavvyGamer",
+//             "rating": 4.5,
+//             "comment": "Reliable and affordable choice, no complaints."
+//           }
+//         ]
+//       }
+//     ],
+//     "psu": [
+//       {
+//         "id": "psu1",
+//         "name": "EVGA 650 B5, 80 Plus Bronze 650W",
+//         "category": "Power Supply Unit",
+//         "price": 89.99,
+//         "status": "In Stock",
+//         "rating": 4.9,
+//         "image": "/images/psu1.jpg",
+//         "description": "The EVGA 650 B5 delivers reliable power and efficiency for your gaming rig.",
+//         "keyFeatures": [
+//           "Wattage: 650W",
+//           "Certification: 80 Plus Bronze",
+//           "Modular: Semi-Modular"
+//         ],
+//         "individualRating": 4.9,
+//         "averageRating": 4.8,
+//         "reviews": [
+//           {
+//             "id": "r1",
+//             "username": "GamerGal",
+//             "rating": 5,
+//             "comment": "Excellent power supply, keeps my system stable."
+//           },
+//           {
+//             "id": "r2",
+//             "username": "TechFanatic",
+//             "rating": 4.9,
+//             "comment": "Highly recommended PSU for mid-range builds."
+//           }
+//         ]
+//       },
+//       {
+//         "id": "psu2",
+//         "name": "Corsair RM850x, 80 Plus Gold 850W",
+//         "category": "Power Supply Unit",
+//         "price": 139.99,
+//         "status": "In Stock",
+//         "rating": 4.8,
+//         "image": "/images/psu2.jpg",
+//         "description": "The Corsair RM850x offers high efficiency and stable power delivery for demanding systems.",
+//         "keyFeatures": [
+//           "Wattage: 850W",
+//           "Certification: 80 Plus Gold",
+//           "Modular: Fully Modular"
+//         ],
+//         "individualRating": 4.8,
+//         "averageRating": 4.9,
+//         "reviews": [
+//           {
+//             "id": "r1",
+//             "username": "ProGamerY",
+//             "rating": 5,
+//             "comment": "Top-tier PSU, works like a charm."
+//           },
+//           {
+//             "id": "r2",
+//             "username": "TechEnthusiastY",
+//             "rating": 4.5,
+//             "comment": "Great choice for high-end builds, but a bit pricey."
+//           }
+//         ]
+//       },
+//       {
+//         "id": "psu3",
+//         "name": "Seasonic S12III 650 SSR-650GB3",
+//         "category": "Power Supply Unit",
+//         "price": 69.99,
+//         "status": "In Stock",
+//         "rating": 4.6,
+//         "image": "/images/psu3.jpg",
+//         "description": "The Seasonic S12III 650 offers reliable power delivery at an affordable price.",
+//         "keyFeatures": [
+//           "Wattage: 650W",
+//           "Certification: 80 Plus Bronze",
+//           "Modular: Non-Modular"
+//         ],
+//         "individualRating": 4.6,
+//         "averageRating": 4.7,
+//         "reviews": [
+//           {
+//             "id": "r1",
+//             "username": "GamerZ123",
+//             "rating": 5,
+//             "comment": "Solid budget PSU, no issues so far."
+//           },
+//           {
+//             "id": "r2",
+//             "username": "TechJunkieX",
+//             "rating": 4.5,
+//             "comment": "Good performance for the price, but lacks modular cables."
+//           }
+//         ]
+//       },
+//       {
+//         "id": "psu4",
+//         "name": "Thermaltake Toughpower GX1 700W",
+//         "category": "Power Supply Unit",
+//         "price": 89.99,
+//         "status": "In Stock",
+//         "rating": 4.7,
+//         "image": "/images/psu4.jpg",
+//         "description": "The Thermaltake Toughpower GX1 offers reliable and efficient power delivery.",
+//         "keyFeatures": [
+//           "Wattage: 700W",
+//           "Certification: 80 Plus Gold",
+//           "Modular: Non-Modular"
+//         ],
+//         "individualRating": 4.7,
+//         "averageRating": 4.8,
+//         "reviews": [
+//           {
+//             "id": "r1",
+//             "username": "GamingGuruX",
+//             "rating": 5,
+//             "comment": "Great PSU, works perfectly with my gaming setup."
+//           },
+//           {
+//             "id": "r2",
+//             "username": "TechSavvyGamerX",
+//             "rating": 4.5,
+//             "comment": "Efficient and reliable power supply, no complaints."
+//           }
+//         ]
+//       },
+//       {
+//         "id": "psu5",
+//         "name": "EVGA 850 GQ, 80 Plus Gold 850W",
+//         "category": "Power Supply Unit",
+//         "price": 129.99,
+//         "status": "In Stock",
+//         "rating": 4.8,
+//         "image": "/images/psu5.jpg",
+//         "description": "The EVGA 850 GQ offers high efficiency and stable power for gaming and professional use.",
+//         "keyFeatures": [
+//           "Wattage: 850W",
+//           "Certification: 80 Plus Gold",
+//           "Modular: Semi-Modular"
+//         ],
+//         "individualRating": 4.8,
+//         "averageRating": 4.9,
+//         "reviews": [
+//           {
+//             "id": "r1",
+//             "username": "GamerPro",
+//             "rating": 5,
+//             "comment": "Excellent power supply, no issues so far."
+//           },
+//           {
+//             "id": "r2",
+//             "username": "TechEnthusiastPro",
+//             "rating": 4.5,
+//             "comment": "Great PSU, but could be a bit quieter under load."
+//           }
+//         ]
+//       }
+//     ],
+//     "storage": [
+//       {
+//         "id": "storage1",
+//         "name": "Samsung 970 EVO Plus 1TB",
+//         "category": "Storage Device",
+//         "price": 179.99,
+//         "status": "In Stock",
+//         "rating": 4.9,
+//         "image": "/images/storage1.jpg",
+//         "description": "The Samsung 970 EVO Plus offers blazing-fast performance and high storage capacity.",
+//         "keyFeatures": [
+//           "Capacity: 1TB",
+//           "Interface: PCIe NVMe M.2",
+//           "Read Speed: Up to 3500 MB/s",
+//           "Write Speed: Up to 3300 MB/s"
+//         ],
+//         "individualRating": 4.9,
+//         "averageRating": 4.8,
+//         "reviews": [
+//           {
+//             "id": "r1",
+//             "username": "GamerQueen",
+//             "rating": 5,
+//             "comment": "Incredibly fast SSD, perfect for gaming and video editing."
+//           },
+//           {
+//             "id": "r2",
+//             "username": "TechNinja",
+//             "rating": 4.9,
+//             "comment": "Great performance, but a bit pricey for the capacity."
+//           }
+//         ]
+//       },
+//       {
+//         "id": "storage2",
+//         "name": "Western Digital Blue 500GB",
+//         "category": "Storage Device",
+//         "price": 59.99,
+//         "status": "In Stock",
+//         "rating": 4.7,
+//         "image": "/images/storage2.jpg",
+//         "description": "The Western Digital Blue offers reliable performance and ample storage space.",
+//         "keyFeatures": [
+//           "Capacity: 500GB",
+//           "Interface: SATA III 6 Gb/s",
+//           "Read Speed: Up to 560 MB/s",
+//           "Write Speed: Up to 530 MB/s"
+//         ],
+//         "individualRating": 4.7,
+//         "averageRating": 4.8,
+//         "reviews": [
+//           {
+//             "id": "r1",
+//             "username": "GamerZ999",
+//             "rating": 5,
+//             "comment": "Great value for money, perfect for my OS and games."
+//           },
+//           {
+//             "id": "r2",
+//             "username": "TechSavvyZ",
+//             "rating": 4.5,
+//             "comment": "Reliable SSD, good choice for general use."
+//           }
+//         ]
+//       },
+//       {
+//         "id": "storage3",
+//         "name": "Crucial MX500 1TB",
+//         "category": "Storage Device",
+//         "price": 119.99,
+//         "status": "In Stock",
+//         "rating": 4.8,
+//         "image": "/images/storage3.jpg",
+//         "description": "The Crucial MX500 offers high storage capacity and reliable performance.",
+//         "keyFeatures": [
+//           "Capacity: 1TB",
+//           "Interface: SATA III 6 Gb/s",
+//           "Read Speed: Up to 560 MB/s",
+//           "Write Speed: Up to 510 MB/s"
+//         ],
+//         "individualRating": 4.8,
+//         "averageRating": 4.9,
+//         "reviews": [
+//           {
+//             "id": "r1",
+//             "username": "GamingAddictX",
+//             "rating": 5,
+//             "comment": "Excellent SSD, great for gaming and multimedia."
+//           },
+//           {
+//             "id": "r2",
+//             "username": "TechExpertX",
+//             "rating": 4.5,
+//             "comment": "Reliable and affordable choice for storage."
+//           }
+//         ]
+//       },
+//       {
+//         "id": "storage4",
+//         "name": "ADATA SU800 256GB",
+//         "category": "Storage Device",
+//         "price": 44.99,
+//         "status": "In Stock",
+//         "rating": 4.7,
+//         "image": "/images/storage4.jpg",
+//         "description": "The ADATA SU800 offers decent performance and storage capacity at a budget-friendly price.",
+//         "keyFeatures": [
+//           "Capacity: 256GB",
+//           "Interface: SATA III 6 Gb/s",
+//           "Read Speed: Up to 560 MB/s",
+//           "Write Speed: Up to 520 MB/s"
+//         ],
+//         "individualRating": 4.7,
+//         "averageRating": 4.8,
+//         "reviews": [
+//           {
+//             "id": "r1",
+//             "username": "GamerLover",
+//             "rating": 5,
+//             "comment": "Affordable SSD, perfect for booting up my system quickly."
+//           },
+//           {
+//             "id": "r2",
+//             "username": "TechGeekX",
+//             "rating": 4.5,
+//             "comment": "Decent performance for the price, no complaints."
+//           }
+//         ]
+//       },
+//       {
+//         "id": "storage5",
+//         "name": "Seagate BarraCuda 2TB",
+//         "category": "Storage Device",
+//         "price": 64.99,
+//         "status": "In Stock",
+//         "rating": 4.6,
+//         "image": "/images/storage5.jpg",
+//         "description": "The Seagate BarraCuda offers high storage capacity and reliable performance.",
+//         "keyFeatures": [
+//           "Capacity: 2TB",
+//           "Interface: SATA III 6 Gb/s",
+//           "RPM: 7200",
+//           "Cache: 256MB"
+//         ],
+//         "individualRating": 4.6,
+//         "averageRating": 4.7,
+//         "reviews": [
+//           {
+//             "id": "r1",
+//             "username": "GamerLoverX",
+//             "rating": 5,
+//             "comment": "Great HDD, plenty of space for all my games and files."
+//           },
+//           {
+//             "id": "r2",
+//             "username": "TechGeekY",
+//             "rating": 4.5,
+//             "comment": "Reliable and affordable hard drive, does the job."
+//           }
+//         ]
+//       }
+//     ],
+//     "monitor": [
+//       {
+//         "id": "monitor1",
+//         "name": "ASUS TUF Gaming VG27AQL1A",
+//         "category": "Monitor",
+//         "price": 419.99,
+//         "status": "In Stock",
+//         "rating": 4.9,
+//         "image": "/images/monitor1.jpg",
+//         "description": "The ASUS TUF Gaming VG27AQL1A offers a high-refresh-rate and QHD resolution for gamers.",
+//         "keyFeatures": [
+//           "Display Size: 27 inches",
+//           "Resolution: 2560x1440 (QHD)",
+//           "Refresh Rate: 165Hz",
+//           "Response Time: 1ms"
+//         ],
+//         "individualRating": 4.9,
+//         "averageRating": 4.8,
+//         "reviews": [
+//           {
+//             "id": "r1",
+//             "username": "GamerQueenX",
+//             "rating": 5,
+//             "comment": "Fantastic monitor, great colors and smooth gaming experience."
+//           },
+//           {
+//             "id": "r2",
+//             "username": "TechNinjaY",
+//             "rating": 4.9,
+//             "comment": "Highly recommended for gaming and content creation."
+//           }
+//         ]
+//       },
+//       {
+//         "id": "monitor2",
+//         "name": "LG 27GL83A-B",
+//         "category": "Monitor",
+//         "price": 379.99,
+//         "status": "In Stock",
+//         "rating": 4.8,
+//         "image": "/images/monitor2.jpg",
+//         "description": "The LG 27GL83A-B offers high color accuracy and fast response times for gamers.",
+//         "keyFeatures": [
+//           "Display Size: 27 inches",
+//           "Resolution: 2560x1440 (QHD)",
+//           "Refresh Rate: 144Hz",
+//           "Response Time: 1ms"
+//         ],
+//         "individualRating": 4.8,
+//         "averageRating": 4.9,
+//         "reviews": [
+//           {
+//             "id": "r1",
+//             "username": "GamerProX",
+//             "rating": 5,
+//             "comment": "Excellent gaming monitor, smooth and responsive."
+//           },
+//           {
+//             "id": "r2",
+//             "username": "TechEnthusiastX",
+//             "rating": 4.5,
+//             "comment": "Great choice for gamers, but a bit pricey."
+//           }
+//         ]
+//       },
+//       {
+//         "id": "monitor3",
+//         "name": "BenQ EX2780Q",
+//         "category": "Monitor",
+//         "price": 499.99,
+//         "status": "In Stock",
+//         "rating": 4.7,
+//         "image": "/images/monitor3.jpg",
+//         "description": "The BenQ EX2780Q offers an immersive gaming experience with its QHD resolution and high refresh rate.",
+//         "keyFeatures": [
+//           "Display Size: 27 inches",
+//           "Resolution: 2560x1440 (QHD)",
+//           "Refresh Rate: 144Hz",
+//           "Response Time: 5ms"
+//         ],
+//         "individualRating": 4.7,
+//         "averageRating": 4.8,
+//         "reviews": [
+//           {
+//             "id": "r1",
+//             "username": "GamerLoverY",
+//             "rating": 5,
+//             "comment": "Stunning colors and smooth gameplay, loving it."
+//           },
+//           {
+//             "id": "r2",
+//             "username": "TechGeekZ",
+//             "rating": 4.5,
+//             "comment": "High-quality monitor, but response time could be better."
+//           }
+//         ]
+//       },
+//       {
+//         "id": "monitor4",
+//         "name": "Acer Predator XB271HU",
+//         "category": "Monitor",
+//         "price": 599.99,
+//         "status": "In Stock",
+//         "rating": 4.9,
+//         "image": "/images/monitor4.jpg",
+//         "description": "The Acer Predator XB271HU offers a high-refresh-rate and G-Sync technology for a seamless gaming experience.",
+//         "keyFeatures": [
+//           "Display Size: 27 inches",
+//           "Resolution: 2560x1440 (QHD)",
+//           "Refresh Rate: 165Hz",
+//           "Response Time: 4ms"
+//         ],
+//         "individualRating": 4.9,
+//         "averageRating": 4.9,
+//         "reviews": [
+//           {
+//             "id": "r1",
+//             "username": "GamerKing",
+//             "rating": 5,
+//             "comment": "The best gaming monitor I've ever used, totally worth it."
+//           },
+//           {
+//             "id": "r2",
+//             "username": "TechSavvyKing",
+//             "rating": 4.5,
+//             "comment": "High-quality monitor with G-Sync, but a bit expensive."
+//           }
+//         ]
+//       },
+//       {
+//         "id": "monitor5",
+//         "name": "ASUS ROG Swift PG279Q",
+//         "category": "Monitor",
+//         "price": 699.99,
+//         "status": "In Stock",
+//         "rating": 4.9,
+//         "image": "/images/monitor5.jpg",
+//         "description": "The ASUS ROG Swift PG279Q offers top-tier gaming performance with its high-refresh-rate and G-Sync.",
+//         "keyFeatures": [
+//           "Display Size: 27 inches",
+//           "Resolution: 2560x1440 (QHD)",
+//           "Refresh Rate: 165Hz",
+//           "Response Time: 4ms"
+//         ],
+//         "individualRating": 4.9,
+//         "averageRating": 4.9,
+//         "reviews": [
+//           {
+//             "id": "r1",
+//             "username": "GamerMaster",
+//             "rating": 5,
+//             "comment": "Unbeatable gaming monitor, love the smoothness."
+//           },
+//           {
+//             "id": "r2",
+//             "username": "TechEnthusiastMaster",
+//             "rating": 4.9,
+//             "comment": "Highly recommended for serious gamers."
+//           }
+//         ]
+//       }
+//     ],
+//     "graphics_card": [
+//       {
+//         "id": "gc1",
+//         "name": "NVIDIA GeForce RTX 3080",
+//         "category": "Graphics Card",
+//         "price": 799.99,
+//         "status": "In Stock",
+//         "rating": 4.9,
+//         "image": "/images/gc1.jpg",
+//         "description": "The NVIDIA GeForce RTX 3080 offers top-tier performance for gaming and content creation.",
+//         "keyFeatures": [
+//           "GPU: NVIDIA GeForce RTX 3080",
+//           "VRAM: 10GB GDDR6X",
+//           "CUDA Cores: 8704",
+//           "Boost Clock: 1710 MHz"
+//         ],
+//         "individualRating": 4.9,
+//         "averageRating": 4.8,
+//         "reviews": [
+//           {
+//             "id": "r1",
+//             "username": "GamerKingX",
+//             "rating": 5,
+//             "comment": "Beast of a GPU, handles any game I throw at it."
+//           },
+//           {
+//             "id": "r2",
+//             "username": "TechMasterX",
+//             "rating": 4.9,
+//             "comment": "The best GPU on the market, worth the investment."
+//           }
+//         ]
+//       },
+//       {
+//         "id": "gc2",
+//         "name": "AMD Radeon RX 6800 XT",
+//         "category": "Graphics Card",
+//         "price": 749.99,
+//         "status": "In Stock",
+//         "rating": 4.8,
+//         "image": "/images/gc2.jpg",
+//         "description": "The AMD Radeon RX 6800 XT offers exceptional performance for gaming and graphics-intensive tasks.",
+//         "keyFeatures": [
+//           "GPU: AMD Radeon RX 6800 XT",
+//           "VRAM: 16GB GDDR6",
+//           "Stream Processors: 4608",
+//           "Boost Clock: 2250 MHz"
+//         ],
+//         "individualRating": 4.8,
+//         "averageRating": 4.9,
+//         "reviews": [
+//           {
+//             "id": "r1",
+//             "username": "GamerQueenY",
+//             "rating": 5,
+//             "comment": "Impressive GPU, AMD is killing it with this one."
+//           },
+//           {
+//             "id": "r2",
+//             "username": "TechNinjaZ",
+//             "rating": 4.5,
+//             "comment": "Great performance, but drivers need some improvement."
+//           }
+//         ]
+//       },
+//       {
+//         "id": "gc3",
+//         "name": "NVIDIA GeForce RTX 3070",
+//         "category": "Graphics Card",
+//         "price": 599.99,
+//         "status": "In Stock",
+//         "rating": 4.8,
+//         "image": "/images/gc3.jpg",
+//         "description": "The NVIDIA GeForce RTX 3070 offers high-performance for gamers and creators.",
+//         "keyFeatures": [
+//           "GPU: NVIDIA GeForce RTX 3070",
+//           "VRAM: 8GB GDDR6",
+//           "CUDA Cores: 5888",
+//           "Boost Clock: 1725 MHz"
+//         ],
+//         "individualRating": 4.8,
+//         "averageRating": 4.9,
+//         "reviews": [
+//           {
+//             "id": "r1",
+//             "username": "GamerMasterX",
+//             "rating": 5,
+//             "comment": "Amazing value for the performance, runs everything smoothly."
+//           },
+//           {
+//             "id": "r2",
+//             "username": "TechEnthusiastY",
+//             "rating": 4.5,
+//             "comment": "Top-notch GPU, but availability can be an issue."
+//           }
+//         ]
+//       },
+//       {
+//         "id": "gc4",
+//         "name": "AMD Radeon RX 6700 XT",
+//         "category": "Graphics Card",
+//         "price": 499.99,
+//         "status": "In Stock",
+//         "rating": 4.7,
+//         "image": "/images/gc4.jpg",
+//         "description": "The AMD Radeon RX 6700 XT offers excellent performance for 1440p gaming.",
+//         "keyFeatures": [
+//           "GPU: AMD Radeon RX 6700 XT",
+//           "VRAM: 12GB GDDR6",
+//           "Stream Processors: 2560",
+//           "Boost Clock: 2424 MHz"
+//         ],
+//         "individualRating": 4.7,
+//         "averageRating": 4.8,
+//         "reviews": [
+//           {
+//             "id": "r1",
+//             "username": "GamerLoverZ",
+//             "rating": 5,
+//             "comment": "Great GPU for 1440p gaming, loving the performance."
+//           },
+//           {
+//             "id": "r2",
+//             "username": "TechGeekX",
+//             "rating": 4.5,
+//             "comment": "Affordable and powerful, no complaints so far."
+//           }
+//         ]
+//       },
+//       {
+//         "id": "gc5",
+//         "name": "NVIDIA GeForce RTX 3060",
+//         "category": "Graphics Card",
+//         "price": 349.99,
+//         "status": "In Stock",
+//         "rating": 4.7,
+//         "image": "/images/gc5.jpg",
+//         "description": "The NVIDIA GeForce RTX 3060 offers solid performance for mainstream gaming.",
+//         "keyFeatures": [
+//           "GPU: NVIDIA GeForce RTX 3060",
+//           "VRAM: 12GB GDDR6",
+//           "CUDA Cores: 3584",
+//           "Boost Clock: 1780 MHz"
+//         ],
+//         "individualRating": 4.7,
+//         "averageRating": 4.8,
+//         "reviews": [
+//           {
+//             "id": "r1",
+//             "username": "GamerProZ",
+//             "rating": 5,
+//             "comment": "Great GPU for 1080p gaming, runs everything smoothly."
+//           },
+//           {
+//             "id": "r2",
+//             "username": "TechSavvyZ",
+//             "rating": 4.5,
+//             "comment": "Solid mainstream GPU, good value for money."
+//           }
+//         ]
+//       }
+//     ]
+//   }
+// }
+
+[
+  {
+    "id": "cpu1",
+    "name": "AMD Ryzen 7 5800X",
+    "category": "CPU / Processor",
+    "price": 399.99,
+    "status": "In Stock",
+    "rating": 4.8,
+    "image": "/images/cpu1.jpg",
+    "description": "The AMD Ryzen 7 5800X is a high-performance processor for gaming and content creation.",
+    "keyFeatures": [
+      "Brand: AMD",
+      "Cores: 8",
+      "Threads: 16",
+      "Clock Speed: 3.8 GHz",
+      "Max Boost Speed: 4.7 GHz"
     ],
-    "motherboard": [
+    "individualRating": 4.8,
+    "averageRating": 4.9,
+    "reviews": [
       {
-        "id": "mb1",
-        "name": "MSI MPG B550 Gaming Plus",
-        "category": "Motherboard",
-        "price": 159.99,
-        "status": "In Stock",
-        "rating": 4.7,
-        "image": "/images/mb1.jpg",
-        "description": "The MSI MPG B550 Gaming Plus offers great performance and features for gaming enthusiasts.",
-        "keyFeatures": [
-          "Socket: AM4",
-          "Chipset: AMD B550",
-          "Memory: DDR4, up to 128GB",
-          "PCIe Slots: 2 x PCIe 4.0 x16"
-        ],
-        "individualRating": 4.7,
-        "averageRating": 4.6,
-        "reviews": [
-          {
-            "id": "r1",
-            "username": "GamerGuy",
-            "rating": 5,
-            "comment": "Superb motherboard with excellent build quality."
-          },
-          {
-            "id": "r2",
-            "username": "TechWizard",
-            "rating": 4.5,
-            "comment": "A solid choice for gamers and overclockers."
-          }
-        ]
+        "id": "r1",
+        "username": "User123",
+        "rating": 5,
+        "comment": "Fantastic CPU! Highly recommended for gamers and streamers."
       },
       {
-        "id": "mb2",
-        "name": "ASUS ROG Strix B550-F Gaming",
-        "category": "Motherboard",
-        "price": 189.99,
-        "status": "In Stock",
-        "rating": 4.9,
-        "image": "/images/mb2.jpg",
-        "description": "The ASUS ROG Strix B550-F Gaming offers top-notch performance and premium features.",
-        "keyFeatures": [
-          "Socket: AM4",
-          "Chipset: AMD B550",
-          "Memory: DDR4, up to 128GB",
-          "PCIe Slots: 3 x PCIe 4.0 x16"
-        ],
-        "individualRating": 4.9,
-        "averageRating": 4.8,
-        "reviews": [
-          {
-            "id": "r1",
-            "username": "GamingNerd",
-            "rating": 5,
-            "comment": "Awesome motherboard, great for high-end gaming builds."
-          },
-          {
-            "id": "r2",
-            "username": "TechWhiz",
-            "rating": 4.9,
-            "comment": "Premium features and aesthetics, but a bit pricey."
-          }
-        ]
-      },
-      {
-        "id": "mb3",
-        "name": "GIGABYTE B450 AORUS PRO",
-        "category": "Motherboard",
-        "price": 129.99,
-        "status": "In Stock",
-        "rating": 4.6,
-        "image": "/images/mb3.jpg",
-        "description": "The GIGABYTE B450 AORUS PRO is a reliable and affordable choice for mid-range builds.",
-        "keyFeatures": [
-          "Socket: AM4",
-          "Chipset: AMD B450",
-          "Memory: DDR4, up to 64GB",
-          "PCIe Slots: 2 x PCIe 3.0 x16"
-        ],
-        "individualRating": 4.6,
-        "averageRating": 4.7,
-        "reviews": [
-          {
-            "id": "r1",
-            "username": "GamerZ",
-            "rating": 5,
-            "comment": "Great value for money, performs well in gaming."
-          },
-          {
-            "id": "r2",
-            "username": "TechSavvy",
-            "rating": 4.5,
-            "comment": "Solid budget-friendly motherboard, no complaints."
-          }
-        ]
-      },
-      {
-        "id": "mb4",
-        "name": "ASUS ROG Strix X570-E Gaming",
-        "category": "Motherboard",
-        "price": 289.99,
-        "status": "In Stock",
-        "rating": 4.8,
-        "image": "/images/mb4.jpg",
-        "description": "The ASUS ROG Strix X570-E Gaming is a high-end motherboard with premium features.",
-        "keyFeatures": [
-          "Socket: AM4",
-          "Chipset: AMD X570",
-          "Memory: DDR4, up to 128GB",
-          "PCIe Slots: 2 x PCIe 4.0 x16"
-        ],
-        "individualRating": 4.8,
-        "averageRating": 4.9,
-        "reviews": [
-          {
-            "id": "r1",
-            "username": "ProGamerX",
-            "rating": 5,
-            "comment": "Top-tier motherboard, great for extreme overclocking."
-          },
-          {
-            "id": "r2",
-            "username": "TechEnthusiastX",
-            "rating": 4.5,
-            "comment": "Highly recommended for enthusiasts and gamers."
-          }
-        ]
-      },
-      {
-        "id": "mb5",
-        "name": "MSI B450 TOMAHAWK MAX",
-        "category": "Motherboard",
-        "price": 119.99,
-        "status": "In Stock",
-        "rating": 4.7,
-        "image": "/images/mb5.jpg",
-        "description": "The MSI B450 TOMAHAWK MAX is a reliable and feature-rich motherboard for gaming builds.",
-        "keyFeatures": [
-          "Socket: AM4",
-          "Chipset: AMD B450",
-          "Memory: DDR4, up to 64GB",
-          "PCIe Slots: 2 x PCIe 3.0 x16"
-        ],
-        "individualRating": 4.7,
-        "averageRating": 4.8,
-        "reviews": [
-          {
-            "id": "r1",
-            "username": "GamingAddict",
-            "rating": 5,
-            "comment": "Solid motherboard, easy to use and setup."
-          },
-          {
-            "id": "r2",
-            "username": "TechExpert",
-            "rating": 4.5,
-            "comment": "Great value for mid-range builds, no complaints so far."
-          }
-        ]
+        "id": "r2",
+        "username": "TechGeek",
+        "rating": 4.5,
+        "comment": "Great performance, but a bit on the expensive side."
       }
+    ]
+  },
+  {
+    "id": "cpu2",
+    "name": "Intel Core i9-9900K",
+    "category": "CPU / Processor",
+    "price": 399.99,
+    "status": "Out of Stock",
+    "rating": 4.6,
+    "image": "/images/cpu2.jpg",
+    "description": "The Intel Core i9-9900K is a high-performance processor for gaming and intensive tasks.",
+    "keyFeatures": [
+      "Brand: Intel",
+      "Cores: 8",
+      "Threads: 16",
+      "Clock Speed: 3.6 GHz",
+      "Max Turbo Speed: 5.0 GHz"
     ],
-    "ram": [
+    "individualRating": 4.6,
+    "averageRating": 4.7,
+    "reviews": [
       {
-        "id": "ram1",
-        "name": "Corsair Vengeance LPX 16GB",
-        "category": "RAM",
-        "price": 79.99,
-        "status": "In Stock",
-        "rating": 4.6,
-        "image": "/images/ram1.jpg",
-        "description": "The Corsair Vengeance LPX offers fast and reliable performance for your gaming and multitasking needs.",
-        "keyFeatures": [
-          "Capacity: 16GB (2 x 8GB)",
-          "Speed: DDR4-3200",
-          "CAS Latency: 16",
-          "Timing: 16-18-18-36"
-        ],
-        "individualRating": 4.6,
-        "averageRating": 4.7,
-        "reviews": [
-          {
-            "id": "r1",
-            "username": "GamerX",
-            "rating": 5,
-            "comment": "Great RAM, runs smoothly with my Ryzen CPU."
-          },
-          {
-            "id": "r2",
-            "username": "TechEnthusiast",
-            "rating": 4.5,
-            "comment": "Reliable memory, but could be a bit cheaper."
-          }
-        ]
+        "id": "r1",
+        "username": "GamerX",
+        "rating": 5,
+        "comment": "Amazing processor! Great performance in games and applications."
       },
       {
-        "id": "ram2",
-        "name": "G.SKILL Ripjaws V Series 32GB",
-        "category": "RAM",
-        "price": 149.99,
-        "status": "In Stock",
-        "rating": 4.7,
-        "image": "/images/ram2.jpg",
-        "description": "The G.SKILL Ripjaws V Series offers high-capacity RAM for demanding tasks and applications.",
-        "keyFeatures": [
-          "Capacity: 32GB (2 x 16GB)",
-          "Speed: DDR4-3600",
-          "CAS Latency: 16",
-          "Timing: 16-19-19-39"
-        ],
-        "individualRating": 4.7,
-        "averageRating": 4.8,
-        "reviews": [
-          {
-            "id": "r1",
-            "username": "GamingQueen",
-            "rating": 5,
-            "comment": "Fast and reliable memory, perfect for multitasking."
-          },
-          {
-            "id": "r2",
-            "username": "TechNerd",
-            "rating": 4.5,
-            "comment": "Great choice for content creators and power users."
-          }
-        ]
-      },
-      {
-        "id": "ram3",
-        "name": "Crucial Ballistix 16GB",
-        "category": "RAM",
-        "price": 89.99,
-        "status": "In Stock",
-        "rating": 4.8,
-        "image": "/images/ram3.jpg",
-        "description": "The Crucial Ballistix offers reliable and budget-friendly RAM for gaming and everyday use.",
-        "keyFeatures": [
-          "Capacity: 16GB (2 x 8GB)",
-          "Speed: DDR4-3200",
-          "CAS Latency: 16",
-          "Timing: 16-18-18-36"
-        ],
-        "individualRating": 4.8,
-        "averageRating": 4.9,
-        "reviews": [
-          {
-            "id": "r1",
-            "username": "GamerXYZ",
-            "rating": 5,
-            "comment": "Affordable and performs well in games and applications."
-          },
-          {
-            "id": "r2",
-            "username": "TechJunkie",
-            "rating": 4.5,
-            "comment": "Great budget RAM, no complaints so far."
-          }
-        ]
-      },
-      {
-        "id": "ram4",
-        "name": "Team T-FORCE VULCAN Z 32GB",
-        "category": "RAM",
-        "price": 129.99,
-        "status": "In Stock",
-        "rating": 4.7,
-        "image": "/images/ram4.jpg",
-        "description": "The Team T-FORCE VULCAN Z offers a sleek design and reliable performance for your build.",
-        "keyFeatures": [
-          "Capacity: 32GB (2 x 16GB)",
-          "Speed: DDR4-3200",
-          "CAS Latency: 16",
-          "Timing: 16-18-18-36"
-        ],
-        "individualRating": 4.7,
-        "averageRating": 4.8,
-        "reviews": [
-          {
-            "id": "r1",
-            "username": "GamingFan",
-            "rating": 5,
-            "comment": "Looks great and works flawlessly with my Ryzen CPU."
-          },
-          {
-            "id": "r2",
-            "username": "TechEnthusiastZ",
-            "rating": 4.5,
-            "comment": "Good value for a high-capacity RAM kit."
-          }
-        ]
-      },
-      {
-        "id": "ram5",
-        "name": "HyperX Fury 16GB",
-        "category": "RAM",
-        "price": 79.99,
-        "status": "In Stock",
-        "rating": 4.6,
-        "image": "/images/ram5.jpg",
-        "description": "The HyperX Fury offers stylish and high-performance RAM for gamers and PC enthusiasts.",
-        "keyFeatures": [
-          "Capacity: 16GB (2 x 8GB)",
-          "Speed: DDR4-3200",
-          "CAS Latency: 16",
-          "Timing: 16-18-18"
-        ],
-        "individualRating": 4.6,
-        "averageRating": 4.7,
-        "reviews": [
-          {
-            "id": "r1",
-            "username": "GamingGuru",
-            "rating": 5,
-            "comment": "Great RAM, perfect for my gaming setup."
-          },
-          {
-            "id": "r2",
-            "username": "TechSavvyGamer",
-            "rating": 4.5,
-            "comment": "Reliable and affordable choice, no complaints."
-          }
-        ]
+        "id": "r2",
+        "username": "TechEnthusiast",
+        "rating": 4.5,
+        "comment": "Solid CPU, but a bit expensive for the performance."
       }
+    ]
+  },
+  {
+    "id": "cpu3",
+    "name": "AMD Ryzen 5 5600X",
+    "category": "CPU / Processor",
+    "price": 279.99,
+    "status": "In Stock",
+    "rating": 4.7,
+    "image": "/images/cpu3.jpg",
+    "description": "The AMD Ryzen 5 5600X offers excellent performance for gaming and productivity.",
+    "keyFeatures": [
+      "Brand: AMD",
+      "Cores: 6",
+      "Threads: 12",
+      "Clock Speed: 3.7 GHz",
+      "Max Boost Speed: 4.6 GHz"
     ],
-    "psu": [
+    "individualRating": 4.7,
+    "averageRating": 4.6,
+    "reviews": [
       {
-        "id": "psu1",
-        "name": "EVGA 650 B5, 80 Plus Bronze 650W",
-        "category": "Power Supply Unit",
-        "price": 89.99,
-        "status": "In Stock",
-        "rating": 4.9,
-        "image": "/images/psu1.jpg",
-        "description": "The EVGA 650 B5 delivers reliable power and efficiency for your gaming rig.",
-        "keyFeatures": [
-          "Wattage: 650W",
-          "Certification: 80 Plus Bronze",
-          "Modular: Semi-Modular"
-        ],
-        "individualRating": 4.9,
-        "averageRating": 4.8,
-        "reviews": [
-          {
-            "id": "r1",
-            "username": "GamerGal",
-            "rating": 5,
-            "comment": "Excellent power supply, keeps my system stable."
-          },
-          {
-            "id": "r2",
-            "username": "TechFanatic",
-            "rating": 4.9,
-            "comment": "Highly recommended PSU for mid-range builds."
-          }
-        ]
+        "id": "r1",
+        "username": "GamingNinja",
+        "rating": 5,
+        "comment": "Fast and reliable CPU, perfect for gaming."
       },
       {
-        "id": "psu2",
-        "name": "Corsair RM850x, 80 Plus Gold 850W",
-        "category": "Power Supply Unit",
-        "price": 139.99,
-        "status": "In Stock",
-        "rating": 4.8,
-        "image": "/images/psu2.jpg",
-        "description": "The Corsair RM850x offers high efficiency and stable power delivery for demanding systems.",
-        "keyFeatures": [
-          "Wattage: 850W",
-          "Certification: 80 Plus Gold",
-          "Modular: Fully Modular"
-        ],
-        "individualRating": 4.8,
-        "averageRating": 4.9,
-        "reviews": [
-          {
-            "id": "r1",
-            "username": "ProGamerY",
-            "rating": 5,
-            "comment": "Top-tier PSU, works like a charm."
-          },
-          {
-            "id": "r2",
-            "username": "TechEnthusiastY",
-            "rating": 4.5,
-            "comment": "Great choice for high-end builds, but a bit pricey."
-          }
-        ]
-      },
-      {
-        "id": "psu3",
-        "name": "Seasonic S12III 650 SSR-650GB3",
-        "category": "Power Supply Unit",
-        "price": 69.99,
-        "status": "In Stock",
-        "rating": 4.6,
-        "image": "/images/psu3.jpg",
-        "description": "The Seasonic S12III 650 offers reliable power delivery at an affordable price.",
-        "keyFeatures": [
-          "Wattage: 650W",
-          "Certification: 80 Plus Bronze",
-          "Modular: Non-Modular"
-        ],
-        "individualRating": 4.6,
-        "averageRating": 4.7,
-        "reviews": [
-          {
-            "id": "r1",
-            "username": "GamerZ123",
-            "rating": 5,
-            "comment": "Solid budget PSU, no issues so far."
-          },
-          {
-            "id": "r2",
-            "username": "TechJunkieX",
-            "rating": 4.5,
-            "comment": "Good performance for the price, but lacks modular cables."
-          }
-        ]
-      },
-      {
-        "id": "psu4",
-        "name": "Thermaltake Toughpower GX1 700W",
-        "category": "Power Supply Unit",
-        "price": 89.99,
-        "status": "In Stock",
-        "rating": 4.7,
-        "image": "/images/psu4.jpg",
-        "description": "The Thermaltake Toughpower GX1 offers reliable and efficient power delivery.",
-        "keyFeatures": [
-          "Wattage: 700W",
-          "Certification: 80 Plus Gold",
-          "Modular: Non-Modular"
-        ],
-        "individualRating": 4.7,
-        "averageRating": 4.8,
-        "reviews": [
-          {
-            "id": "r1",
-            "username": "GamingGuruX",
-            "rating": 5,
-            "comment": "Great PSU, works perfectly with my gaming setup."
-          },
-          {
-            "id": "r2",
-            "username": "TechSavvyGamerX",
-            "rating": 4.5,
-            "comment": "Efficient and reliable power supply, no complaints."
-          }
-        ]
-      },
-      {
-        "id": "psu5",
-        "name": "EVGA 850 GQ, 80 Plus Gold 850W",
-        "category": "Power Supply Unit",
-        "price": 129.99,
-        "status": "In Stock",
-        "rating": 4.8,
-        "image": "/images/psu5.jpg",
-        "description": "The EVGA 850 GQ offers high efficiency and stable power for gaming and professional use.",
-        "keyFeatures": [
-          "Wattage: 850W",
-          "Certification: 80 Plus Gold",
-          "Modular: Semi-Modular"
-        ],
-        "individualRating": 4.8,
-        "averageRating": 4.9,
-        "reviews": [
-          {
-            "id": "r1",
-            "username": "GamerPro",
-            "rating": 5,
-            "comment": "Excellent power supply, no issues so far."
-          },
-          {
-            "id": "r2",
-            "username": "TechEnthusiastPro",
-            "rating": 4.5,
-            "comment": "Great PSU, but could be a bit quieter under load."
-          }
-        ]
+        "id": "r2",
+        "username": "TechGuru",
+        "rating": 4.5,
+        "comment": "Great value for money, works like a charm."
       }
+    ]
+  },
+  {
+    "id": "cpu4",
+    "name": "Intel Core i7-11700K",
+    "category": "CPU / Processor",
+    "price": 349.99,
+    "status": "In Stock",
+    "rating": 4.8,
+    "image": "/images/cpu4.jpg",
+    "description": "The Intel Core i7-11700K is a powerful processor for gaming and multitasking.",
+    "keyFeatures": [
+      "Brand: Intel",
+      "Cores: 8",
+      "Threads: 16",
+      "Clock Speed: 3.6 GHz",
+      "Max Turbo Speed: 5.0 GHz"
     ],
-    "storage": [
+    "individualRating": 4.8,
+    "averageRating": 4.9,
+    "reviews": [
       {
-        "id": "storage1",
-        "name": "Samsung 970 EVO Plus 1TB",
-        "category": "Storage Device",
-        "price": 179.99,
-        "status": "In Stock",
-        "rating": 4.9,
-        "image": "/images/storage1.jpg",
-        "description": "The Samsung 970 EVO Plus offers blazing-fast performance and high storage capacity.",
-        "keyFeatures": [
-          "Capacity: 1TB",
-          "Interface: PCIe NVMe M.2",
-          "Read Speed: Up to 3500 MB/s",
-          "Write Speed: Up to 3300 MB/s"
-        ],
-        "individualRating": 4.9,
-        "averageRating": 4.8,
-        "reviews": [
-          {
-            "id": "r1",
-            "username": "GamerQueen",
-            "rating": 5,
-            "comment": "Incredibly fast SSD, perfect for gaming and video editing."
-          },
-          {
-            "id": "r2",
-            "username": "TechNinja",
-            "rating": 4.9,
-            "comment": "Great performance, but a bit pricey for the capacity."
-          }
-        ]
+        "id": "r1",
+        "username": "Gamer123",
+        "rating": 5,
+        "comment": "Excellent CPU, handles games and workloads like a champ."
       },
       {
-        "id": "storage2",
-        "name": "Western Digital Blue 500GB",
-        "category": "Storage Device",
-        "price": 59.99,
-        "status": "In Stock",
-        "rating": 4.7,
-        "image": "/images/storage2.jpg",
-        "description": "The Western Digital Blue offers reliable performance and ample storage space.",
-        "keyFeatures": [
-          "Capacity: 500GB",
-          "Interface: SATA III 6 Gb/s",
-          "Read Speed: Up to 560 MB/s",
-          "Write Speed: Up to 530 MB/s"
-        ],
-        "individualRating": 4.7,
-        "averageRating": 4.8,
-        "reviews": [
-          {
-            "id": "r1",
-            "username": "GamerZ999",
-            "rating": 5,
-            "comment": "Great value for money, perfect for my OS and games."
-          },
-          {
-            "id": "r2",
-            "username": "TechSavvyZ",
-            "rating": 4.5,
-            "comment": "Reliable SSD, good choice for general use."
-          }
-        ]
-      },
-      {
-        "id": "storage3",
-        "name": "Crucial MX500 1TB",
-        "category": "Storage Device",
-        "price": 119.99,
-        "status": "In Stock",
-        "rating": 4.8,
-        "image": "/images/storage3.jpg",
-        "description": "The Crucial MX500 offers high storage capacity and reliable performance.",
-        "keyFeatures": [
-          "Capacity: 1TB",
-          "Interface: SATA III 6 Gb/s",
-          "Read Speed: Up to 560 MB/s",
-          "Write Speed: Up to 510 MB/s"
-        ],
-        "individualRating": 4.8,
-        "averageRating": 4.9,
-        "reviews": [
-          {
-            "id": "r1",
-            "username": "GamingAddictX",
-            "rating": 5,
-            "comment": "Excellent SSD, great for gaming and multimedia."
-          },
-          {
-            "id": "r2",
-            "username": "TechExpertX",
-            "rating": 4.5,
-            "comment": "Reliable and affordable choice for storage."
-          }
-        ]
-      },
-      {
-        "id": "storage4",
-        "name": "ADATA SU800 256GB",
-        "category": "Storage Device",
-        "price": 44.99,
-        "status": "In Stock",
-        "rating": 4.7,
-        "image": "/images/storage4.jpg",
-        "description": "The ADATA SU800 offers decent performance and storage capacity at a budget-friendly price.",
-        "keyFeatures": [
-          "Capacity: 256GB",
-          "Interface: SATA III 6 Gb/s",
-          "Read Speed: Up to 560 MB/s",
-          "Write Speed: Up to 520 MB/s"
-        ],
-        "individualRating": 4.7,
-        "averageRating": 4.8,
-        "reviews": [
-          {
-            "id": "r1",
-            "username": "GamerLover",
-            "rating": 5,
-            "comment": "Affordable SSD, perfect for booting up my system quickly."
-          },
-          {
-            "id": "r2",
-            "username": "TechGeekX",
-            "rating": 4.5,
-            "comment": "Decent performance for the price, no complaints."
-          }
-        ]
-      },
-      {
-        "id": "storage5",
-        "name": "Seagate BarraCuda 2TB",
-        "category": "Storage Device",
-        "price": 64.99,
-        "status": "In Stock",
-        "rating": 4.6,
-        "image": "/images/storage5.jpg",
-        "description": "The Seagate BarraCuda offers high storage capacity and reliable performance.",
-        "keyFeatures": [
-          "Capacity: 2TB",
-          "Interface: SATA III 6 Gb/s",
-          "RPM: 7200",
-          "Cache: 256MB"
-        ],
-        "individualRating": 4.6,
-        "averageRating": 4.7,
-        "reviews": [
-          {
-            "id": "r1",
-            "username": "GamerLoverX",
-            "rating": 5,
-            "comment": "Great HDD, plenty of space for all my games and files."
-          },
-          {
-            "id": "r2",
-            "username": "TechGeekY",
-            "rating": 4.5,
-            "comment": "Reliable and affordable hard drive, does the job."
-          }
-        ]
+        "id": "r2",
+        "username": "TechLover",
+        "rating": 4.5,
+        "comment": "Solid performer, but could use better thermal management."
       }
+    ]
+  },
+  {
+    "id": "cpu5",
+    "name": "AMD Ryzen 9 5900X",
+    "category": "CPU / Processor",
+    "price": 499.99,
+    "status": "In Stock",
+    "rating": 4.9,
+    "image": "/images/cpu5.jpg",
+    "description": "The AMD Ryzen 9 5900X is a top-tier processor for gaming and heavy workloads.",
+    "keyFeatures": [
+      "Brand: AMD",
+      "Cores: 12",
+      "Threads: 24",
+      "Clock Speed: 3.7 GHz",
+      "Max Boost Speed: 4.8 GHz"
     ],
-    "monitor": [
+    "individualRating": 4.9,
+    "averageRating": 4.8,
+    "reviews": [
       {
-        "id": "monitor1",
-        "name": "ASUS TUF Gaming VG27AQL1A",
-        "category": "Monitor",
-        "price": 419.99,
-        "status": "In Stock",
+        "id": "r1",
+        "username": "ProGamer",
+        "rating": 5,
+        "comment": "Beast of a CPU, worth every penny."
+      },
+      {
+        "id": "r2",
+        "username": "TechMaster",
         "rating": 4.9,
-        "image": "/images/monitor1.jpg",
-        "description": "The ASUS TUF Gaming VG27AQL1A offers a high-refresh-rate and QHD resolution for gamers.",
-        "keyFeatures": [
-          "Display Size: 27 inches",
-          "Resolution: 2560x1440 (QHD)",
-          "Refresh Rate: 165Hz",
-          "Response Time: 1ms"
-        ],
-        "individualRating": 4.9,
-        "averageRating": 4.8,
-        "reviews": [
-          {
-            "id": "r1",
-            "username": "GamerQueenX",
-            "rating": 5,
-            "comment": "Fantastic monitor, great colors and smooth gaming experience."
-          },
-          {
-            "id": "r2",
-            "username": "TechNinjaY",
-            "rating": 4.9,
-            "comment": "Highly recommended for gaming and content creation."
-          }
-        ]
-      },
-      {
-        "id": "monitor2",
-        "name": "LG 27GL83A-B",
-        "category": "Monitor",
-        "price": 379.99,
-        "status": "In Stock",
-        "rating": 4.8,
-        "image": "/images/monitor2.jpg",
-        "description": "The LG 27GL83A-B offers high color accuracy and fast response times for gamers.",
-        "keyFeatures": [
-          "Display Size: 27 inches",
-          "Resolution: 2560x1440 (QHD)",
-          "Refresh Rate: 144Hz",
-          "Response Time: 1ms"
-        ],
-        "individualRating": 4.8,
-        "averageRating": 4.9,
-        "reviews": [
-          {
-            "id": "r1",
-            "username": "GamerProX",
-            "rating": 5,
-            "comment": "Excellent gaming monitor, smooth and responsive."
-          },
-          {
-            "id": "r2",
-            "username": "TechEnthusiastX",
-            "rating": 4.5,
-            "comment": "Great choice for gamers, but a bit pricey."
-          }
-        ]
-      },
-      {
-        "id": "monitor3",
-        "name": "BenQ EX2780Q",
-        "category": "Monitor",
-        "price": 499.99,
-        "status": "In Stock",
-        "rating": 4.7,
-        "image": "/images/monitor3.jpg",
-        "description": "The BenQ EX2780Q offers an immersive gaming experience with its QHD resolution and high refresh rate.",
-        "keyFeatures": [
-          "Display Size: 27 inches",
-          "Resolution: 2560x1440 (QHD)",
-          "Refresh Rate: 144Hz",
-          "Response Time: 5ms"
-        ],
-        "individualRating": 4.7,
-        "averageRating": 4.8,
-        "reviews": [
-          {
-            "id": "r1",
-            "username": "GamerLoverY",
-            "rating": 5,
-            "comment": "Stunning colors and smooth gameplay, loving it."
-          },
-          {
-            "id": "r2",
-            "username": "TechGeekZ",
-            "rating": 4.5,
-            "comment": "High-quality monitor, but response time could be better."
-          }
-        ]
-      },
-      {
-        "id": "monitor4",
-        "name": "Acer Predator XB271HU",
-        "category": "Monitor",
-        "price": 599.99,
-        "status": "In Stock",
-        "rating": 4.9,
-        "image": "/images/monitor4.jpg",
-        "description": "The Acer Predator XB271HU offers a high-refresh-rate and G-Sync technology for a seamless gaming experience.",
-        "keyFeatures": [
-          "Display Size: 27 inches",
-          "Resolution: 2560x1440 (QHD)",
-          "Refresh Rate: 165Hz",
-          "Response Time: 4ms"
-        ],
-        "individualRating": 4.9,
-        "averageRating": 4.9,
-        "reviews": [
-          {
-            "id": "r1",
-            "username": "GamerKing",
-            "rating": 5,
-            "comment": "The best gaming monitor I've ever used, totally worth it."
-          },
-          {
-            "id": "r2",
-            "username": "TechSavvyKing",
-            "rating": 4.5,
-            "comment": "High-quality monitor with G-Sync, but a bit expensive."
-          }
-        ]
-      },
-      {
-        "id": "monitor5",
-        "name": "ASUS ROG Swift PG279Q",
-        "category": "Monitor",
-        "price": 699.99,
-        "status": "In Stock",
-        "rating": 4.9,
-        "image": "/images/monitor5.jpg",
-        "description": "The ASUS ROG Swift PG279Q offers top-tier gaming performance with its high-refresh-rate and G-Sync.",
-        "keyFeatures": [
-          "Display Size: 27 inches",
-          "Resolution: 2560x1440 (QHD)",
-          "Refresh Rate: 165Hz",
-          "Response Time: 4ms"
-        ],
-        "individualRating": 4.9,
-        "averageRating": 4.9,
-        "reviews": [
-          {
-            "id": "r1",
-            "username": "GamerMaster",
-            "rating": 5,
-            "comment": "Unbeatable gaming monitor, love the smoothness."
-          },
-          {
-            "id": "r2",
-            "username": "TechEnthusiastMaster",
-            "rating": 4.9,
-            "comment": "Highly recommended for serious gamers."
-          }
-        ]
+        "comment": "Excellent multi-core performance, ideal for content creation."
       }
+    ]
+  },
+  {
+    "id": "mb1",
+    "name": "MSI MPG B550 Gaming Plus",
+    "category": "Motherboard",
+    "price": 159.99,
+    "status": "In Stock",
+    "rating": 4.7,
+    "image": "/images/mb1.jpg",
+    "description": "The MSI MPG B550 Gaming Plus offers great performance and features for gaming enthusiasts.",
+    "keyFeatures": [
+      "Socket: AM4",
+      "Chipset: AMD B550",
+      "Memory: DDR4, up to 128GB",
+      "PCIe Slots: 2 x PCIe 4.0 x16"
     ],
-    "graphics_card": [
+    "individualRating": 4.7,
+    "averageRating": 4.6,
+    "reviews": [
       {
-        "id": "gc1",
-        "name": "NVIDIA GeForce RTX 3080",
-        "category": "Graphics Card",
-        "price": 799.99,
-        "status": "In Stock",
+        "id": "r1",
+        "username": "GamerGuy",
+        "rating": 5,
+        "comment": "Superb motherboard with excellent build quality."
+      },
+      {
+        "id": "r2",
+        "username": "TechWizard",
+        "rating": 4.5,
+        "comment": "A solid choice for gamers and overclockers."
+      }
+    ]
+  },
+  {
+    "id": "mb2",
+    "name": "ASUS ROG Strix B550-F Gaming",
+    "category": "Motherboard",
+    "price": 189.99,
+    "status": "In Stock",
+    "rating": 4.9,
+    "image": "/images/mb2.jpg",
+    "description": "The ASUS ROG Strix B550-F Gaming offers top-notch performance and premium features.",
+    "keyFeatures": [
+      "Socket: AM4",
+      "Chipset: AMD B550",
+      "Memory: DDR4, up to 128GB",
+      "PCIe Slots: 3 x PCIe 4.0 x16"
+    ],
+    "individualRating": 4.9,
+    "averageRating": 4.8,
+    "reviews": [
+      {
+        "id": "r1",
+        "username": "GamingNerd",
+        "rating": 5,
+        "comment": "Awesome motherboard, great for high-end gaming builds."
+      },
+      {
+        "id": "r2",
+        "username": "TechWhiz",
         "rating": 4.9,
-        "image": "/images/gc1.jpg",
-        "description": "The NVIDIA GeForce RTX 3080 offers top-tier performance for gaming and content creation.",
-        "keyFeatures": [
-          "GPU: NVIDIA GeForce RTX 3080",
-          "VRAM: 10GB GDDR6X",
-          "CUDA Cores: 8704",
-          "Boost Clock: 1710 MHz"
-        ],
-        "individualRating": 4.9,
-        "averageRating": 4.8,
-        "reviews": [
-          {
-            "id": "r1",
-            "username": "GamerKingX",
-            "rating": 5,
-            "comment": "Beast of a GPU, handles any game I throw at it."
-          },
-          {
-            "id": "r2",
-            "username": "TechMasterX",
-            "rating": 4.9,
-            "comment": "The best GPU on the market, worth the investment."
-          }
-        ]
+        "comment": "Premium features and aesthetics, but a bit pricey."
+      }
+    ]
+  },
+  {
+    "id": "mb3",
+    "name": "GIGABYTE B450 AORUS PRO",
+    "category": "Motherboard",
+    "price": 129.99,
+    "status": "In Stock",
+    "rating": 4.6,
+    "image": "/images/mb3.jpg",
+    "description": "The GIGABYTE B450 AORUS PRO is a reliable and affordable choice for mid-range builds.",
+    "keyFeatures": [
+      "Socket: AM4",
+      "Chipset: AMD B450",
+      "Memory: DDR4, up to 64GB",
+      "PCIe Slots: 2 x PCIe 3.0 x16"
+    ],
+    "individualRating": 4.6,
+    "averageRating": 4.7,
+    "reviews": [
+      {
+        "id": "r1",
+        "username": "GamerZ",
+        "rating": 5,
+        "comment": "Great value for money, performs well in gaming."
       },
       {
-        "id": "gc2",
-        "name": "AMD Radeon RX 6800 XT",
-        "category": "Graphics Card",
-        "price": 749.99,
-        "status": "In Stock",
-        "rating": 4.8,
-        "image": "/images/gc2.jpg",
-        "description": "The AMD Radeon RX 6800 XT offers exceptional performance for gaming and graphics-intensive tasks.",
-        "keyFeatures": [
-          "GPU: AMD Radeon RX 6800 XT",
-          "VRAM: 16GB GDDR6",
-          "Stream Processors: 4608",
-          "Boost Clock: 2250 MHz"
-        ],
-        "individualRating": 4.8,
-        "averageRating": 4.9,
-        "reviews": [
-          {
-            "id": "r1",
-            "username": "GamerQueenY",
-            "rating": 5,
-            "comment": "Impressive GPU, AMD is killing it with this one."
-          },
-          {
-            "id": "r2",
-            "username": "TechNinjaZ",
-            "rating": 4.5,
-            "comment": "Great performance, but drivers need some improvement."
-          }
-        ]
+        "id": "r2",
+        "username": "TechSavvy",
+        "rating": 4.5,
+        "comment": "Solid budget-friendly motherboard, no complaints."
+      }
+    ]
+  },
+  {
+    "id": "mb4",
+    "name": "ASUS ROG Strix X570-E Gaming",
+    "category": "Motherboard",
+    "price": 289.99,
+    "status": "In Stock",
+    "rating": 4.8,
+    "image": "/images/mb4.jpg",
+    "description": "The ASUS ROG Strix X570-E Gaming is a high-end motherboard with premium features.",
+    "keyFeatures": [
+      "Socket: AM4",
+      "Chipset: AMD X570",
+      "Memory: DDR4, up to 128GB",
+      "PCIe Slots: 2 x PCIe 4.0 x16"
+    ],
+    "individualRating": 4.8,
+    "averageRating": 4.9,
+    "reviews": [
+      {
+        "id": "r1",
+        "username": "ProGamerX",
+        "rating": 5,
+        "comment": "Top-tier motherboard, great for extreme overclocking."
       },
       {
-        "id": "gc3",
-        "name": "NVIDIA GeForce RTX 3070",
-        "category": "Graphics Card",
-        "price": 599.99,
-        "status": "In Stock",
-        "rating": 4.8,
-        "image": "/images/gc3.jpg",
-        "description": "The NVIDIA GeForce RTX 3070 offers high-performance for gamers and creators.",
-        "keyFeatures": [
-          "GPU: NVIDIA GeForce RTX 3070",
-          "VRAM: 8GB GDDR6",
-          "CUDA Cores: 5888",
-          "Boost Clock: 1725 MHz"
-        ],
-        "individualRating": 4.8,
-        "averageRating": 4.9,
-        "reviews": [
-          {
-            "id": "r1",
-            "username": "GamerMasterX",
-            "rating": 5,
-            "comment": "Amazing value for the performance, runs everything smoothly."
-          },
-          {
-            "id": "r2",
-            "username": "TechEnthusiastY",
-            "rating": 4.5,
-            "comment": "Top-notch GPU, but availability can be an issue."
-          }
-        ]
+        "id": "r2",
+        "username": "TechEnthusiastX",
+        "rating": 4.5,
+        "comment": "Highly recommended for enthusiasts and gamers."
+      }
+    ]
+  },
+  {
+    "id": "mb5",
+    "name": "MSI B450 TOMAHAWK MAX",
+    "category": "Motherboard",
+    "price": 119.99,
+    "status": "In Stock",
+    "rating": 4.7,
+    "image": "/images/mb5.jpg",
+    "description": "The MSI B450 TOMAHAWK MAX is a reliable and feature-rich motherboard for gaming builds.",
+    "keyFeatures": [
+      "Socket: AM4",
+      "Chipset: AMD B450",
+      "Memory: DDR4, up to 64GB",
+      "PCIe Slots: 2 x PCIe 3.0 x16"
+    ],
+    "individualRating": 4.7,
+    "averageRating": 4.8,
+    "reviews": [
+      {
+        "id": "r1",
+        "username": "GamingAddict",
+        "rating": 5,
+        "comment": "Solid motherboard, easy to use and setup."
       },
       {
-        "id": "gc4",
-        "name": "AMD Radeon RX 6700 XT",
-        "category": "Graphics Card",
-        "price": 499.99,
-        "status": "In Stock",
-        "rating": 4.7,
-        "image": "/images/gc4.jpg",
-        "description": "The AMD Radeon RX 6700 XT offers excellent performance for 1440p gaming.",
-        "keyFeatures": [
-          "GPU: AMD Radeon RX 6700 XT",
-          "VRAM: 12GB GDDR6",
-          "Stream Processors: 2560",
-          "Boost Clock: 2424 MHz"
-        ],
-        "individualRating": 4.7,
-        "averageRating": 4.8,
-        "reviews": [
-          {
-            "id": "r1",
-            "username": "GamerLoverZ",
-            "rating": 5,
-            "comment": "Great GPU for 1440p gaming, loving the performance."
-          },
-          {
-            "id": "r2",
-            "username": "TechGeekX",
-            "rating": 4.5,
-            "comment": "Affordable and powerful, no complaints so far."
-          }
-        ]
+        "id": "r2",
+        "username": "TechExpert",
+        "rating": 4.5,
+        "comment": "Great value for mid-range builds, no complaints so far."
+      }
+    ]
+  },
+  {
+    "id": "ram1",
+    "name": "Corsair Vengeance LPX 16GB",
+    "category": "RAM",
+    "price": 79.99,
+    "status": "In Stock",
+    "rating": 4.6,
+    "image": "/images/ram1.jpg",
+    "description": "The Corsair Vengeance LPX offers fast and reliable performance for your gaming and multitasking needs.",
+    "keyFeatures": [
+      "Capacity: 16GB (2 x 8GB)",
+      "Speed: DDR4-3200",
+      "CAS Latency: 16",
+      "Timing: 16-18-18-36"
+    ],
+    "individualRating": 4.6,
+    "averageRating": 4.7,
+    "reviews": [
+      {
+        "id": "r1",
+        "username": "GamerX",
+        "rating": 5,
+        "comment": "Great RAM, runs smoothly with my Ryzen CPU."
       },
       {
-        "id": "gc5",
-        "name": "NVIDIA GeForce RTX 3060",
-        "category": "Graphics Card",
-        "price": 349.99,
-        "status": "In Stock",
-        "rating": 4.7,
-        "image": "/images/gc5.jpg",
-        "description": "The NVIDIA GeForce RTX 3060 offers solid performance for mainstream gaming.",
-        "keyFeatures": [
-          "GPU: NVIDIA GeForce RTX 3060",
-          "VRAM: 12GB GDDR6",
-          "CUDA Cores: 3584",
-          "Boost Clock: 1780 MHz"
-        ],
-        "individualRating": 4.7,
-        "averageRating": 4.8,
-        "reviews": [
-          {
-            "id": "r1",
-            "username": "GamerProZ",
-            "rating": 5,
-            "comment": "Great GPU for 1080p gaming, runs everything smoothly."
-          },
-          {
-            "id": "r2",
-            "username": "TechSavvyZ",
-            "rating": 4.5,
-            "comment": "Solid mainstream GPU, good value for money."
-          }
-        ]
+        "id": "r2",
+        "username": "TechEnthusiast",
+        "rating": 4.5,
+        "comment": "Reliable memory, but could be a bit cheaper."
+      }
+    ]
+  },
+  {
+    "id": "ram2",
+    "name": "G.SKILL Ripjaws V Series 32GB",
+    "category": "RAM",
+    "price": 149.99,
+    "status": "In Stock",
+    "rating": 4.7,
+    "image": "/images/ram2.jpg",
+    "description": "The G.SKILL Ripjaws V Series offers high-capacity RAM for demanding tasks and applications.",
+    "keyFeatures": [
+      "Capacity: 32GB (2 x 16GB)",
+      "Speed: DDR4-3600",
+      "CAS Latency: 16",
+      "Timing: 16-19-19-39"
+    ],
+    "individualRating": 4.7,
+    "averageRating": 4.8,
+    "reviews": [
+      {
+        "id": "r1",
+        "username": "GamingQueen",
+        "rating": 5,
+        "comment": "Fast and reliable memory, perfect for multitasking."
+      },
+      {
+        "id": "r2",
+        "username": "TechNerd",
+        "rating": 4.5,
+        "comment": "Great choice for content creators and power users."
+      }
+    ]
+  },
+  {
+    "id": "ram3",
+    "name": "Crucial Ballistix 16GB",
+    "category": "RAM",
+    "price": 89.99,
+    "status": "In Stock",
+    "rating": 4.8,
+    "image": "/images/ram3.jpg",
+    "description": "The Crucial Ballistix offers reliable and budget-friendly RAM for gaming and everyday use.",
+    "keyFeatures": [
+      "Capacity: 16GB (2 x 8GB)",
+      "Speed: DDR4-3200",
+      "CAS Latency: 16",
+      "Timing: 16-18-18-36"
+    ],
+    "individualRating": 4.8,
+    "averageRating": 4.9,
+    "reviews": [
+      {
+        "id": "r1",
+        "username": "GamerXYZ",
+        "rating": 5,
+        "comment": "Affordable and performs well in games and applications."
+      },
+      {
+        "id": "r2",
+        "username": "TechJunkie",
+        "rating": 4.5,
+        "comment": "Great budget RAM, no complaints so far."
+      }
+    ]
+  },
+  {
+    "id": "ram4",
+    "name": "Team T-FORCE VULCAN Z 32GB",
+    "category": "RAM",
+    "price": 129.99,
+    "status": "In Stock",
+    "rating": 4.7,
+    "image": "/images/ram4.jpg",
+    "description": "The Team T-FORCE VULCAN Z offers a sleek design and reliable performance for your build.",
+    "keyFeatures": [
+      "Capacity: 32GB (2 x 16GB)",
+      "Speed: DDR4-3200",
+      "CAS Latency: 16",
+      "Timing: 16-18-18-36"
+    ],
+    "individualRating": 4.7,
+    "averageRating": 4.8,
+    "reviews": [
+      {
+        "id": "r1",
+        "username": "GamingFan",
+        "rating": 5,
+        "comment": "Looks great and works flawlessly with my Ryzen CPU."
+      },
+      {
+        "id": "r2",
+        "username": "TechEnthusiastZ",
+        "rating": 4.5,
+        "comment": "Good value for a high-capacity RAM kit."
+      }
+    ]
+  },
+  {
+    "id": "ram5",
+    "name": "HyperX Fury 16GB",
+    "category": "RAM",
+    "price": 79.99,
+    "status": "In Stock",
+    "rating": 4.6,
+    "image": "/images/ram5.jpg",
+    "description": "The HyperX Fury offers stylish and high-performance RAM for gamers and PC enthusiasts.",
+    "keyFeatures": [
+      "Capacity: 16GB (2 x 8GB)",
+      "Speed: DDR4-3200",
+      "CAS Latency: 16",
+      "Timing: 16-18-18"
+    ],
+    "individualRating": 4.6,
+    "averageRating": 4.7,
+    "reviews": [
+      {
+        "id": "r1",
+        "username": "GamingGuru",
+        "rating": 5,
+        "comment": "Great RAM, perfect for my gaming setup."
+      },
+      {
+        "id": "r2",
+        "username": "TechSavvyGamer",
+        "rating": 4.5,
+        "comment": "Reliable and affordable choice, no complaints."
+      }
+    ]
+  },
+  {
+    "id": "psu1",
+    "name": "EVGA 650 B5, 80 Plus Bronze 650W",
+    "category": "Power Supply Unit",
+    "price": 89.99,
+    "status": "In Stock",
+    "rating": 4.9,
+    "image": "/images/psu1.jpg",
+    "description": "The EVGA 650 B5 delivers reliable power and efficiency for your gaming rig.",
+    "keyFeatures": [
+      "Wattage: 650W",
+      "Certification: 80 Plus Bronze",
+      "Modular: Semi-Modular"
+    ],
+    "individualRating": 4.9,
+    "averageRating": 4.8,
+    "reviews": [
+      {
+        "id": "r1",
+        "username": "GamerGal",
+        "rating": 5,
+        "comment": "Excellent power supply, keeps my system stable."
+      },
+      {
+        "id": "r2",
+        "username": "TechFanatic",
+        "rating": 4.9,
+        "comment": "Highly recommended PSU for mid-range builds."
+      }
+    ]
+  },
+  {
+    "id": "psu2",
+    "name": "Corsair RM850x, 80 Plus Gold 850W",
+    "category": "Power Supply Unit",
+    "price": 139.99,
+    "status": "In Stock",
+    "rating": 4.8,
+    "image": "/images/psu2.jpg",
+    "description": "The Corsair RM850x offers high efficiency and stable power delivery for demanding systems.",
+    "keyFeatures": [
+      "Wattage: 850W",
+      "Certification: 80 Plus Gold",
+      "Modular: Fully Modular"
+    ],
+    "individualRating": 4.8,
+    "averageRating": 4.9,
+    "reviews": [
+      {
+        "id": "r1",
+        "username": "ProGamerY",
+        "rating": 5,
+        "comment": "Top-tier PSU, works like a charm."
+      },
+      {
+        "id": "r2",
+        "username": "TechEnthusiastY",
+        "rating": 4.5,
+        "comment": "Great choice for high-end builds, but a bit pricey."
+      }
+    ]
+  },
+  {
+    "id": "psu3",
+    "name": "Seasonic S12III 650 SSR-650GB3",
+    "category": "Power Supply Unit",
+    "price": 69.99,
+    "status": "In Stock",
+    "rating": 4.6,
+    "image": "/images/psu3.jpg",
+    "description": "The Seasonic S12III 650 offers reliable power delivery at an affordable price.",
+    "keyFeatures": [
+      "Wattage: 650W",
+      "Certification: 80 Plus Bronze",
+      "Modular: Non-Modular"
+    ],
+    "individualRating": 4.6,
+    "averageRating": 4.7,
+    "reviews": [
+      {
+        "id": "r1",
+        "username": "GamerZ123",
+        "rating": 5,
+        "comment": "Solid budget PSU, no issues so far."
+      },
+      {
+        "id": "r2",
+        "username": "TechJunkieX",
+        "rating": 4.5,
+        "comment": "Good performance for the price, but lacks modular cables."
+      }
+    ]
+  },
+  {
+    "id": "psu4",
+    "name": "Thermaltake Toughpower GX1 700W",
+    "category": "Power Supply Unit",
+    "price": 89.99,
+    "status": "In Stock",
+    "rating": 4.7,
+    "image": "/images/psu4.jpg",
+    "description": "The Thermaltake Toughpower GX1 offers reliable and efficient power delivery.",
+    "keyFeatures": [
+      "Wattage: 700W",
+      "Certification: 80 Plus Gold",
+      "Modular: Non-Modular"
+    ],
+    "individualRating": 4.7,
+    "averageRating": 4.8,
+    "reviews": [
+      {
+        "id": "r1",
+        "username": "GamingGuruX",
+        "rating": 5,
+        "comment": "Great PSU, works perfectly with my gaming setup."
+      },
+      {
+        "id": "r2",
+        "username": "TechSavvyGamerX",
+        "rating": 4.5,
+        "comment": "Efficient and reliable power supply, no complaints."
+      }
+    ]
+  },
+  {
+    "id": "psu5",
+    "name": "EVGA 850 GQ, 80 Plus Gold 850W",
+    "category": "Power Supply Unit",
+    "price": 129.99,
+    "status": "In Stock",
+    "rating": 4.8,
+    "image": "/images/psu5.jpg",
+    "description": "The EVGA 850 GQ offers high efficiency and stable power for gaming and professional use.",
+    "keyFeatures": [
+      "Wattage: 850W",
+      "Certification: 80 Plus Gold",
+      "Modular: Semi-Modular"
+    ],
+    "individualRating": 4.8,
+    "averageRating": 4.9,
+    "reviews": [
+      {
+        "id": "r1",
+        "username": "GamerPro",
+        "rating": 5,
+        "comment": "Excellent power supply, no issues so far."
+      },
+      {
+        "id": "r2",
+        "username": "TechEnthusiastPro",
+        "rating": 4.5,
+        "comment": "Great PSU, but could be a bit quieter under load."
+      }
+    ]
+  },
+  {
+    "id": "storage1",
+    "name": "Samsung 970 EVO Plus 1TB",
+    "category": "Storage Device",
+    "price": 179.99,
+    "status": "In Stock",
+    "rating": 4.9,
+    "image": "/images/storage1.jpg",
+    "description": "The Samsung 970 EVO Plus offers blazing-fast performance and high storage capacity.",
+    "keyFeatures": [
+      "Capacity: 1TB",
+      "Interface: PCIe NVMe M.2",
+      "Read Speed: Up to 3500 MB/s",
+      "Write Speed: Up to 3300 MB/s"
+    ],
+    "individualRating": 4.9,
+    "averageRating": 4.8,
+    "reviews": [
+      {
+        "id": "r1",
+        "username": "GamerQueen",
+        "rating": 5,
+        "comment": "Incredibly fast SSD, perfect for gaming and video editing."
+      },
+      {
+        "id": "r2",
+        "username": "TechNinja",
+        "rating": 4.9,
+        "comment": "Great performance, but a bit pricey for the capacity."
+      }
+    ]
+  },
+  {
+    "id": "storage2",
+    "name": "Western Digital Blue 500GB",
+    "category": "Storage Device",
+    "price": 59.99,
+    "status": "In Stock",
+    "rating": 4.7,
+    "image": "/images/storage2.jpg",
+    "description": "The Western Digital Blue offers reliable performance and ample storage space.",
+    "keyFeatures": [
+      "Capacity: 500GB",
+      "Interface: SATA III 6 Gb/s",
+      "Read Speed: Up to 560 MB/s",
+      "Write Speed: Up to 530 MB/s"
+    ],
+    "individualRating": 4.7,
+    "averageRating": 4.8,
+    "reviews": [
+      {
+        "id": "r1",
+        "username": "GamerZ999",
+        "rating": 5,
+        "comment": "Great value for money, perfect for my OS and games."
+      },
+      {
+        "id": "r2",
+        "username": "TechSavvyZ",
+        "rating": 4.5,
+        "comment": "Reliable SSD, good choice for general use."
+      }
+    ]
+  },
+  {
+    "id": "storage3",
+    "name": "Crucial MX500 1TB",
+    "category": "Storage Device",
+    "price": 119.99,
+    "status": "In Stock",
+    "rating": 4.8,
+    "image": "/images/storage3.jpg",
+    "description": "The Crucial MX500 offers high storage capacity and reliable performance.",
+    "keyFeatures": [
+      "Capacity: 1TB",
+      "Interface: SATA III 6 Gb/s",
+      "Read Speed: Up to 560 MB/s",
+      "Write Speed: Up to 510 MB/s"
+    ],
+    "individualRating": 4.8,
+    "averageRating": 4.9,
+    "reviews": [
+      {
+        "id": "r1",
+        "username": "GamingAddictX",
+        "rating": 5,
+        "comment": "Excellent SSD, great for gaming and multimedia."
+      },
+      {
+        "id": "r2",
+        "username": "TechExpertX",
+        "rating": 4.5,
+        "comment": "Reliable and affordable choice for storage."
+      }
+    ]
+  },
+  {
+    "id": "storage4",
+    "name": "ADATA SU800 256GB",
+    "category": "Storage Device",
+    "price": 44.99,
+    "status": "In Stock",
+    "rating": 4.7,
+    "image": "/images/storage4.jpg",
+    "description": "The ADATA SU800 offers decent performance and storage capacity at a budget-friendly price.",
+    "keyFeatures": [
+      "Capacity: 256GB",
+      "Interface: SATA III 6 Gb/s",
+      "Read Speed: Up to 560 MB/s",
+      "Write Speed: Up to 520 MB/s"
+    ],
+    "individualRating": 4.7,
+    "averageRating": 4.8,
+    "reviews": [
+      {
+        "id": "r1",
+        "username": "GamerLover",
+        "rating": 5,
+        "comment": "Affordable SSD, perfect for booting up my system quickly."
+      },
+      {
+        "id": "r2",
+        "username": "TechGeekX",
+        "rating": 4.5,
+        "comment": "Decent performance for the price, no complaints."
+      }
+    ]
+  },
+  {
+    "id": "storage5",
+    "name": "Seagate BarraCuda 2TB",
+    "category": "Storage Device",
+    "price": 64.99,
+    "status": "In Stock",
+    "rating": 4.6,
+    "image": "/images/storage5.jpg",
+    "description": "The Seagate BarraCuda offers high storage capacity and reliable performance.",
+    "keyFeatures": [
+      "Capacity: 2TB",
+      "Interface: SATA III 6 Gb/s",
+      "RPM: 7200",
+      "Cache: 256MB"
+    ],
+    "individualRating": 4.6,
+    "averageRating": 4.7,
+    "reviews": [
+      {
+        "id": "r1",
+        "username": "GamerLoverX",
+        "rating": 5,
+        "comment": "Great HDD, plenty of space for all my games and files."
+      },
+      {
+        "id": "r2",
+        "username": "TechGeekY",
+        "rating": 4.5,
+        "comment": "Reliable and affordable hard drive, does the job."
+      }
+    ]
+  },
+  {
+    "id": "monitor1",
+    "name": "ASUS TUF Gaming VG27AQL1A",
+    "category": "Monitor",
+    "price": 419.99,
+    "status": "In Stock",
+    "rating": 4.9,
+    "image": "/images/monitor1.jpg",
+    "description": "The ASUS TUF Gaming VG27AQL1A offers a high-refresh-rate and QHD resolution for gamers.",
+    "keyFeatures": [
+      "Display Size: 27 inches",
+      "Resolution: 2560x1440 (QHD)",
+      "Refresh Rate: 165Hz",
+      "Response Time: 1ms"
+    ],
+    "individualRating": 4.9,
+    "averageRating": 4.8,
+    "reviews": [
+      {
+        "id": "r1",
+        "username": "GamerQueenX",
+        "rating": 5,
+        "comment": "Fantastic monitor, great colors and smooth gaming experience."
+      },
+      {
+        "id": "r2",
+        "username": "TechNinjaY",
+        "rating": 4.9,
+        "comment": "Highly recommended for gaming and content creation."
+      }
+    ]
+  },
+  {
+    "id": "monitor2",
+    "name": "LG 27GL83A-B",
+    "category": "Monitor",
+    "price": 379.99,
+    "status": "In Stock",
+    "rating": 4.8,
+    "image": "/images/monitor2.jpg",
+    "description": "The LG 27GL83A-B offers high color accuracy and fast response times for gamers.",
+    "keyFeatures": [
+      "Display Size: 27 inches",
+      "Resolution: 2560x1440 (QHD)",
+      "Refresh Rate: 144Hz",
+      "Response Time: 1ms"
+    ],
+    "individualRating": 4.8,
+    "averageRating": 4.9,
+    "reviews": [
+      {
+        "id": "r1",
+        "username": "GamerProX",
+        "rating": 5,
+        "comment": "Excellent gaming monitor, smooth and responsive."
+      },
+      {
+        "id": "r2",
+        "username": "TechEnthusiastX",
+        "rating": 4.5,
+        "comment": "Great choice for gamers, but a bit pricey."
+      }
+    ]
+  },
+  {
+    "id": "monitor3",
+    "name": "BenQ EX2780Q",
+    "category": "Monitor",
+    "price": 499.99,
+    "status": "In Stock",
+    "rating": 4.7,
+    "image": "/images/monitor3.jpg",
+    "description": "The BenQ EX2780Q offers an immersive gaming experience with its QHD resolution and high refresh rate.",
+    "keyFeatures": [
+      "Display Size: 27 inches",
+      "Resolution: 2560x1440 (QHD)",
+      "Refresh Rate: 144Hz",
+      "Response Time: 5ms"
+    ],
+    "individualRating": 4.7,
+    "averageRating": 4.8,
+    "reviews": [
+      {
+        "id": "r1",
+        "username": "GamerLoverY",
+        "rating": 5,
+        "comment": "Stunning colors and smooth gameplay, loving it."
+      },
+      {
+        "id": "r2",
+        "username": "TechGeekZ",
+        "rating": 4.5,
+        "comment": "High-quality monitor, but response time could be better."
+      }
+    ]
+  },
+  {
+    "id": "monitor4",
+    "name": "Acer Predator XB271HU",
+    "category": "Monitor",
+    "price": 599.99,
+    "status": "In Stock",
+    "rating": 4.9,
+    "image": "/images/monitor4.jpg",
+    "description": "The Acer Predator XB271HU offers a high-refresh-rate and G-Sync technology for a seamless gaming experience.",
+    "keyFeatures": [
+      "Display Size: 27 inches",
+      "Resolution: 2560x1440 (QHD)",
+      "Refresh Rate: 165Hz",
+      "Response Time: 4ms"
+    ],
+    "individualRating": 4.9,
+    "averageRating": 4.9,
+    "reviews": [
+      {
+        "id": "r1",
+        "username": "GamerKing",
+        "rating": 5,
+        "comment": "The best gaming monitor I've ever used, totally worth it."
+      },
+      {
+        "id": "r2",
+        "username": "TechSavvyKing",
+        "rating": 4.5,
+        "comment": "High-quality monitor with G-Sync, but a bit expensive."
+      }
+    ]
+  },
+  {
+    "id": "monitor5",
+    "name": "ASUS ROG Swift PG279Q",
+    "category": "Monitor",
+    "price": 699.99,
+    "status": "In Stock",
+    "rating": 4.9,
+    "image": "/images/monitor5.jpg",
+    "description": "The ASUS ROG Swift PG279Q offers top-tier gaming performance with its high-refresh-rate and G-Sync.",
+    "keyFeatures": [
+      "Display Size: 27 inches",
+      "Resolution: 2560x1440 (QHD)",
+      "Refresh Rate: 165Hz",
+      "Response Time: 4ms"
+    ],
+    "individualRating": 4.9,
+    "averageRating": 4.9,
+    "reviews": [
+      {
+        "id": "r1",
+        "username": "GamerMaster",
+        "rating": 5,
+        "comment": "Unbeatable gaming monitor, love the smoothness."
+      },
+      {
+        "id": "r2",
+        "username": "TechEnthusiastMaster",
+        "rating": 4.9,
+        "comment": "Highly recommended for serious gamers."
+      }
+    ]
+  },
+  {
+    "id": "gc1",
+    "name": "NVIDIA GeForce RTX 3080",
+    "category": "Graphics Card",
+    "price": 799.99,
+    "status": "In Stock",
+    "rating": 4.9,
+    "image": "/images/gc1.jpg",
+    "description": "The NVIDIA GeForce RTX 3080 offers top-tier performance for gaming and content creation.",
+    "keyFeatures": [
+      "GPU: NVIDIA GeForce RTX 3080",
+      "VRAM: 10GB GDDR6X",
+      "CUDA Cores: 8704",
+      "Boost Clock: 1710 MHz"
+    ],
+    "individualRating": 4.9,
+    "averageRating": 4.8,
+    "reviews": [
+      {
+        "id": "r1",
+        "username": "GamerKingX",
+        "rating": 5,
+        "comment": "Beast of a GPU, handles any game I throw at it."
+      },
+      {
+        "id": "r2",
+        "username": "TechMasterX",
+        "rating": 4.9,
+        "comment": "The best GPU on the market, worth the investment."
+      }
+    ]
+  },
+  {
+    "id": "gc2",
+    "name": "AMD Radeon RX 6800 XT",
+    "category": "Graphics Card",
+    "price": 749.99,
+    "status": "In Stock",
+    "rating": 4.8,
+    "image": "/images/gc2.jpg",
+    "description": "The AMD Radeon RX 6800 XT offers exceptional performance for gaming and graphics-intensive tasks.",
+    "keyFeatures": [
+      "GPU: AMD Radeon RX 6800 XT",
+      "VRAM: 16GB GDDR6",
+      "Stream Processors: 4608",
+      "Boost Clock: 2250 MHz"
+    ],
+    "individualRating": 4.8,
+    "averageRating": 4.9,
+    "reviews": [
+      {
+        "id": "r1",
+        "username": "GamerQueenY",
+        "rating": 5,
+        "comment": "Impressive GPU, AMD is killing it with this one."
+      },
+      {
+        "id": "r2",
+        "username": "TechNinjaZ",
+        "rating": 4.5,
+        "comment": "Great performance, but drivers need some improvement."
+      }
+    ]
+  },
+  {
+    "id": "gc3",
+    "name": "NVIDIA GeForce RTX 3070",
+    "category": "Graphics Card",
+    "price": 599.99,
+    "status": "In Stock",
+    "rating": 4.8,
+    "image": "/images/gc3.jpg",
+    "description": "The NVIDIA GeForce RTX 3070 offers high-performance for gamers and creators.",
+    "keyFeatures": [
+      "GPU: NVIDIA GeForce RTX 3070",
+      "VRAM: 8GB GDDR6",
+      "CUDA Cores: 5888",
+      "Boost Clock: 1725 MHz"
+    ],
+    "individualRating": 4.8,
+    "averageRating": 4.9,
+    "reviews": [
+      {
+        "id": "r1",
+        "username": "GamerMasterX",
+        "rating": 5,
+        "comment": "Amazing value for the performance, runs everything smoothly."
+      },
+      {
+        "id": "r2",
+        "username": "TechEnthusiastY",
+        "rating": 4.5,
+        "comment": "Top-notch GPU, but availability can be an issue."
+      }
+    ]
+  },
+  {
+    "id": "gc4",
+    "name": "AMD Radeon RX 6700 XT",
+    "category": "Graphics Card",
+    "price": 499.99,
+    "status": "In Stock",
+    "rating": 4.7,
+    "image": "/images/gc4.jpg",
+    "description": "The AMD Radeon RX 6700 XT offers excellent performance for 1440p gaming.",
+    "keyFeatures": [
+      "GPU: AMD Radeon RX 6700 XT",
+      "VRAM: 12GB GDDR6",
+      "Stream Processors: 2560",
+      "Boost Clock: 2424 MHz"
+    ],
+    "individualRating": 4.7,
+    "averageRating": 4.8,
+    "reviews": [
+      {
+        "id": "r1",
+        "username": "GamerLoverZ",
+        "rating": 5,
+        "comment": "Great GPU for 1440p gaming, loving the performance."
+      },
+      {
+        "id": "r2",
+        "username": "TechGeekX",
+        "rating": 4.5,
+        "comment": "Affordable and powerful, no complaints so far."
+      }
+    ]
+  },
+  {
+    "id": "gc5",
+    "name": "NVIDIA GeForce RTX 3060",
+    "category": "Graphics Card",
+    "price": 349.99,
+    "status": "In Stock",
+    "rating": 4.7,
+    "image": "/images/gc5.jpg",
+    "description": "The NVIDIA GeForce RTX 3060 offers solid performance for mainstream gaming.",
+    "keyFeatures": [
+      "GPU: NVIDIA GeForce RTX 3060",
+      "VRAM: 12GB GDDR6",
+      "CUDA Cores: 3584",
+      "Boost Clock: 1780 MHz"
+    ],
+    "individualRating": 4.7,
+    "averageRating": 4.8,
+    "reviews": [
+      {
+        "id": "r1",
+        "username": "GamerProZ",
+        "rating": 5,
+        "comment": "Great GPU for 1080p gaming, runs everything smoothly."
+      },
+      {
+        "id": "r2",
+        "username": "TechSavvyZ",
+        "rating": 4.5,
+        "comment": "Solid mainstream GPU, good value for money."
       }
     ]
   }
-}
+]
+
+[
+  {
+    "id": "cpu1",
+    "name": "AMD Ryzen 7 5800X",
+    "category": "CPU / Processor",
+    "price": 399.99,
+    "status": "In Stock",
+    "rating": 4.8,
+    "image": "/images/cpu1.jpg",
+    "description": "The AMD Ryzen 7 5800X is a high-performance processor for gaming and content creation.",
+    "keyFeatures": [
+      "Brand: AMD",
+      "Cores: 8",
+      "Threads: 16",
+      "Clock Speed: 3.8 GHz",
+      "Max Boost Speed: 4.7 GHz"
+    ],
+    "individualRating": 4.8,
+    "averageRating": 4.9,
+    "reviews": [
+      {
+        "id": "r1",
+        "username": "User123",
+        "rating": 5,
+        "comment": "Fantastic CPU! Highly recommended for gamers and streamers."
+      },
+      {
+        "id": "r2",
+        "username": "TechGeek",
+        "rating": 4.5,
+        "comment": "Great performance, but a bit on the expensive side."
+      }
+    ]
+  },
+  {
+    "id": "cpu2",
+    "name": "Intel Core i9-9900K",
+    "category": "CPU / Processor",
+    "price": 399.99,
+    "status": "Out of Stock",
+    "rating": 4.6,
+    "image": "/images/cpu2.jpg",
+    "description": "The Intel Core i9-9900K is a high-performance processor for gaming and intensive tasks.",
+    "keyFeatures": [
+      "Brand: Intel",
+      "Cores: 8",
+      "Threads: 16",
+      "Clock Speed: 3.6 GHz",
+      "Max Turbo Speed: 5.0 GHz"
+    ],
+    "individualRating": 4.6,
+    "averageRating": 4.7,
+    "reviews": [
+      {
+        "id": "r1",
+        "username": "GamerX",
+        "rating": 5,
+        "comment": "Amazing processor! Great performance in games and applications."
+      },
+      {
+        "id": "r2",
+        "username": "TechEnthusiast",
+        "rating": 4.5,
+        "comment": "Solid CPU, but a bit expensive for the performance."
+      }
+    ]
+  }
+]
