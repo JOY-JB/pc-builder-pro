@@ -1,9 +1,11 @@
 import { categoryLink } from "@/assets/commonData/categoryLink";
 import { useGetProductsQuery } from "@/redux/api/apiSlice";
+import { signOut, useSession } from "next-auth/react";
 import Link from "next/link";
 
 const Header = () => {
   const { data } = useGetProductsQuery();
+  const { data: session } = useSession();
 
   const categories = [];
   const categoriesMap = {};
@@ -84,7 +86,11 @@ const Header = () => {
             </details>
           </li>
           <li>
-            <Link href={"/login"}>Login</Link>
+            {session ? (
+              <button onClick={() => signOut()}>Sign out</button>
+            ) : (
+              <Link href={"/login"}>Login</Link>
+            )}
           </li>
         </ul>
       </div>

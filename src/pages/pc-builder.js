@@ -1,11 +1,11 @@
 import { categoryLink } from "@/assets/commonData/categoryLink";
 import RootLayout from "@/components/layout/RootLayout";
-import { selectProduct } from "@/redux/features/pcBuilder/pcBuilderSlice";
+import Head from "next/head";
 import Link from "next/link";
-import { useDispatch, useSelector } from "react-redux";
+import { useState } from "react";
+import { useSelector } from "react-redux";
 
 const PCBuilderPage = ({ products }) => {
-  const dispatch = useDispatch();
   const selectedProducts = useSelector(
     (state) => state.pcBuilder.selectedProducts
   );
@@ -20,10 +20,6 @@ const PCBuilderPage = ({ products }) => {
     }
   });
 
-  const handleProductSelect = (category, productId) => {
-    dispatch(selectProduct({ category, productId }));
-  };
-
   const totalPricing = Object.values(selectedProducts).reduce(
     (total, productId) =>
       total +
@@ -31,8 +27,17 @@ const PCBuilderPage = ({ products }) => {
     0
   );
 
+  const [buildComplete, setBuildComplete] = useState(false);
+
+  const handleBuildComplete = () => {
+    setBuildComplete(true);
+  };
+
   return (
     <div className="container mx-auto py-8 mt-6">
+      <Head>
+        <title>PC Builder</title>
+      </Head>
       <h1 className="text-3xl font-bold mb-4">PC Builder</h1>
       <div className="flex gap-8">
         <div className="grid grid-cols-1 gap-4 w-2/3">
@@ -97,8 +102,35 @@ const PCBuilderPage = ({ products }) => {
                   Total Pricing: ${totalPricing.toFixed(2)}
                 </p>
 
-                <button className="btn btn-primary">Complete Build</button>
+                <button
+                  className="btn btn-primary"
+                  onClick={handleBuildComplete}
+                >
+                  Complete Build
+                </button>
               </div>
+
+              {buildComplete && (
+                <div className="alert alert-success mt-10">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="stroke-current shrink-0 h-6 w-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                    />
+                  </svg>
+                  <span>
+                    <strong className="font-semibold">Success!</strong> Your
+                    build has been completed.
+                  </span>
+                </div>
+              )}
             </div>
           ) : (
             <p>Please select one product from each category.</p>
