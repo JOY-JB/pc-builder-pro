@@ -1,38 +1,39 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# PC Builder Web Application
 
-## Getting Started
+The PC Builder web application is a platform that allows users to build their custom PC configurations by selecting components from different categories. Users can explore featured products and categories, build custom PCs.
 
-First, run the development server:
+## Website Link
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+Access the PC Builder web application [here](http://localhost:3000/).
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### Home Page
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+The home page of the PC Builder web application provides an attractive and user-friendly interface with the following sections:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+1. **Hero Section**: The hero section showcases an eye-catching image and a **Customize Your Pc** button to encourage users to get started with building their custom PCs.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+2. **Featured Products**: This section displays a selection of featured products that are popular and highly recommended. Users can click on these products to view more details and add them to their custom PC builds.
 
-## Learn More
+3. **Featured Categories**: Here, users can explore featured categories of products such as CPUs, GPUs, RAM, Storage, and more. Each category links to a dedicated page with a wide range of products to choose from.
 
-To learn more about Next.js, take a look at the following resources:
+### PC Builder Page
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The PC Builder page allows users to select products from different categories to build their custom PCs. Here's how it works:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. **Category Selection**: Users can browse through various product categories and choose products from each category to build their custom PC.
 
-## Deploy on Vercel
+2. **Selected Products**: As users select products from each category, the selected products are displayed on the right-hand side, along with the total pricing of the custom PC build.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. **Complete Build**: Once users have selected products from all categories, they can click the "Complete Build" button to finalize their custom PC configuration.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+4. **Build Completion Alert**: After clicking the "Complete Build" button, a success alert is shown, confirming that the custom PC build has been completed.
+
+### User Authentication
+
+To access the PC Builder and save custom PC configurations, users need to log in. Here's the login process:
+
+1. **Sign Up / Log In**: Users can register or log in using their Google and Github account.
+
+2. **Authentication State**: The application maintains the user's authentication state, allowing them to access the PC Builder page.

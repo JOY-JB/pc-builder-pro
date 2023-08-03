@@ -20,7 +20,9 @@ const FeaturedCategories = ({ products }) => {
           {categories.map((category) => (
             <Link key={category} href={`/categories/${categoryLink[category]}`}>
               <div className="bg-white p-4 rounded-lg shadow-md cursor-pointer">
-                <h3 className="text-xl font-bold mb-2">{category}</h3>
+                <h3 className="text-lg lg:text-xl font-bold mb-2">
+                  {category}
+                </h3>
               </div>
             </Link>
           ))}

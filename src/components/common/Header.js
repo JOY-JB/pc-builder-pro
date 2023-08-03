@@ -49,13 +49,19 @@ const Header = () => {
               <ul className="p-2">
                 {categories.map((category) => (
                   <li key={category}>
-                    <a>{category}</a>
+                    <Link href={`/categories/${categoryLink[category]}`}>
+                      {category}
+                    </Link>
                   </li>
                 ))}
               </ul>
             </li>
             <li>
-              <Link href={"/login"}>Login</Link>
+              {session ? (
+                <button onClick={() => signOut()}>Sign out</button>
+              ) : (
+                <Link href={"/login"}>Login</Link>
+              )}
             </li>
           </ul>
         </div>
@@ -74,10 +80,7 @@ const Header = () => {
               <ul className="p-2 bg-base-200 z-10">
                 {categories.map((category) => (
                   <li key={category} className="w-52">
-                    <Link
-                      href={`/categories/${categoryLink[category]}`}
-                      className=""
-                    >
+                    <Link href={`/categories/${categoryLink[category]}`}>
                       {category}
                     </Link>
                   </li>

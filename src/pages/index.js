@@ -2,6 +2,7 @@ import RootLayout from "@/components/layout/RootLayout";
 import FeaturedCategories from "@/components/ui/FeaturedCategories";
 import FeaturedProducts from "@/components/ui/FeaturedProducts";
 import Head from "next/head";
+import Link from "next/link";
 
 const HomePage = ({ products }) => {
   return (
@@ -10,16 +11,28 @@ const HomePage = ({ products }) => {
         <title>Home</title>
       </Head>
 
-      <header className="bg-gray-900 text-white py-20">
-        <div className="container mx-auto text-center">
-          <h1 className="text-4xl md:text-6xl font-bold mb-4">
-            Welcome to PC Builder
-          </h1>
-          <p className="text-lg md:text-xl mb-8">
-            Build your dream PC with ease!
-          </p>
+      <div
+        className="hero min-h-screen"
+        style={{
+          backgroundImage:
+            "url(https://www.datocms-assets.com/34299/1658908744-custom-pc-path-primary-web.png)",
+        }}
+      >
+        <div className="hero-overlay bg-opacity-60"></div>
+        <div className="hero-content text-center text-neutral-content">
+          <div className="max-w-5xl">
+            <h1 className="mb-10 text-6xl font-bold ">Welcome to PC Builder</h1>
+            <p className="mb-8 text-lg">
+              Build your dream PC with our wide selection of high-performance
+              components. Find the perfect CPU, GPU, motherboard, and more for
+              your gaming and content creation needs.
+            </p>
+            <Link href={"/pc-builder"}>
+              <button className="btn btn-primary">Customize Your PC</button>
+            </Link>
+          </div>
         </div>
-      </header>
+      </div>
 
       {/* Featured Products Section */}
       <FeaturedProducts products={products} />
