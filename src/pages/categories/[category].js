@@ -22,6 +22,7 @@ CatagoryDetailsPage.getLayout = function getLayout(page) {
 };
 
 export const getStaticPaths = async () => {
+  console.log(`${process.env.NEXT_PUBLIC_BASE_URL}/api/products`);
   const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/products`);
   const data = await res.json();
   const products = data.data;
@@ -41,6 +42,7 @@ export const getStaticPaths = async () => {
 };
 
 export const getStaticProps = async ({ params }) => {
+  console.log(`${process.env.NEXT_PUBLIC_BASE_URL}/api/products`);
   const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/products`);
   const data = await res.json();
   const products = data.data;

@@ -80,6 +80,7 @@ ProductDetailsPage.getLayout = function getLayout(page) {
 };
 
 export const getStaticPaths = async () => {
+  console.log(`${process.env.NEXT_PUBLIC_BASE_URL}/api/products`);
   const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/products`);
   const data = await res.json();
 

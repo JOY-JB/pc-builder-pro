@@ -4,7 +4,7 @@ The PC Builder web application is a platform that allows users to build their cu
 
 ## Website Link
 
-Access the PC Builder web application [here](http://localhost:3000/).
+Access the PC Builder web application [here](https://pc-builder-pro-pi.vercel.app).
 
 ## Features
 
